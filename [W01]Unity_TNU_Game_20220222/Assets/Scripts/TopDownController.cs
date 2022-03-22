@@ -22,6 +22,8 @@ namespace Yuemo //namespace+tap*2 以防不同人製作的產生衝突性
         private string parameterDead = "開關_死亡";
         private Animator ani;
         private Rigidbody2D rig;
+        private float h;
+        private float V;
         #endregion 資料結束
 
         #region 事件：程式的入口(Unity)
@@ -39,6 +41,8 @@ namespace Yuemo //namespace+tap*2 以防不同人製作的產生衝突性
         private void Update()
         {
             GetInput();
+            Move();
+            Rotate();
         }
         #endregion 事件結束
 
@@ -54,13 +58,38 @@ namespace Yuemo //namespace+tap*2 以防不同人製作的產生衝突性
             //Horizontal 水平倫向
             //左:方向左鍵 A - 傳回 -1
             //右:方向左鍵 D - 傳回 +1
-            float h = Input.GetAxis("Horizontal");
+            //float h =***;- 區域變數:僅能在此結構(大括號)內存取 
+            h = Input.GetAxis("Horizontal");
             //print()輸出:將()內訊息輸出至Unity Console 面板(Ctrl + shift + C)
-            print("水平倫向值:" + h);
+            //print("水平倫向值:" + h);
             //--Vertical 垂直倫向
-            float V = Input.GetAxis("Vertical");
+            V = Input.GetAxis("Vertical");
             //print("垂直倫向值:" + V);
 
+        }
+        /// <summary>
+        /// 移動
+        /// </summary>
+        private void Move()
+        {
+            //使用非靜態資料 non-static
+            //語法:欄位名稱.非靜態屬性名稱
+            rig.velocity = new Vector2(h, V)*speed; //剛體.加速器 = 二維向量*速度
+            //水平or垂直 不等於0 ||=or
+            ani.SetBool(parameterRun, h != 0 || V !=0); //動畫控制器.設定布林值(參數 , 布林值) - h不等於0 -只要水平軸不=0 就勾選 跑步參數
+
+        }
+
+        /// <summary>
+        /// 旋轉
+        /// 往右角度Y=0
+        /// 往左角度Y=180
+        /// </summary>
+        private void Rotate() {
+            //三元運算子
+            //布林值 ? 布林值為true :布林值為 false
+            //h > 0 ? 0 : 180 =當水平值 >=0 值為0,否則值為180
+            transform.eulerAngles = new Vector3(0, h >= 0 ? 0 : 180, 0);
         }
 
         #endregion 方法結束
