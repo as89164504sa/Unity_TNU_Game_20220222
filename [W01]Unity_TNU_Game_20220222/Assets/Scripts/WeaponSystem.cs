@@ -44,6 +44,12 @@ namespace Yuemo
             }
         }
 
+        private void Start()
+        {
+            //2D物理.忽略圖層碰撞(圖層1，圖層2)
+            Physics2D.IgnoreLayerCollision(3, 6);//武器與玩家 不碰撞
+            Physics2D.IgnoreLayerCollision(6, 6);//武器與武器 不碰撞
+        }
         private void Update()
         {
             SpawnWeapon();
@@ -55,13 +61,22 @@ namespace Yuemo
         /// </summary>
         private void SpawnWeapon()
         {
-            print("經過時間:" + timer);
+            //print("經過時間:" + timer);
 
             //如果 計時器 大於等於 間隔時間
             if (timer >= dateWeapon.interval)
             {
+                //隨機值 = 隨機.範圍(最小值，最大值) ※整數不包含最大值
+                int random = Random.Range(0, dateWeapon.v2SpawnPoint.Length);//取得範圍0-1-2
+
+                //座標
+                Vector3 pos = transform.position + dateWeapon.v2SpawnPoint[random];
+                //Quaternion 四位元 - 紀錄角度資訊
+                //Quaternion.identity 零角度(0,0,0)
                 //生成(物件)
-                Instantiate(dateWeapon.goWeapon);
+                GameObject temp = Instantiate(dateWeapon.goWeapon,pos,Quaternion.identity);
+                //暫存武器.取得元件<剛體>().添加推力(方向 * 速度)
+                temp.GetComponent<Rigidbody2D>().AddForce(dateWeapon.v3Direction * dateWeapon.speedFly);
                 //計時器 歸零
                 timer = 0;
             }

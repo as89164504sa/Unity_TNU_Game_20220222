@@ -10,6 +10,9 @@ namespace Yuemo
     /// 3.數量
     /// 4.數量上限
     /// 5.生成位置
+    /// 6.攻擊間隔
+    /// 7.武器物件
+    /// 8.飛行方向
     /// </summary>
     [CreateAssetMenu(menuName = "Yuemo/Date Weapon", fileName = "Date Weapon")]
     public class DateWeapon : ScriptableObject
@@ -30,5 +33,7 @@ namespace Yuemo
         public Vector3[] v2SpawnPoint;
         [Header("武器物件")]
         public GameObject goWeapon;
+        [Header("飛行方向")]
+        public Vector3 v3Direction;
     }
 }
