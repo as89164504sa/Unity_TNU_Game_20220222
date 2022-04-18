@@ -1,6 +1,5 @@
 using UnityEngine;
 
-
 namespace Yuemo
 {
     /// <summary>
@@ -14,7 +13,7 @@ namespace Yuemo
     /// 7.武器物件
     /// 8.飛行方向
     /// </summary>
-    [CreateAssetMenu(menuName = "Yuemo/Date Weapon", fileName = "Date Weapon")]
+    [CreateAssetMenu(menuName = "Yuemo/Date Weapon", fileName = "Date Weapon"), SelectionBase]
     public class DateWeapon : ScriptableObject
     {
         [Header("飛行速度"), Range(0, 3500)]
@@ -35,5 +34,6 @@ namespace Yuemo
         public GameObject goWeapon;
         [Header("飛行方向")]
         public Vector3 v3Direction;
+
     }
 }

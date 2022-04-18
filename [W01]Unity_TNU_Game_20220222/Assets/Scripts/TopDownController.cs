@@ -20,6 +20,7 @@ namespace Yuemo //namespace+tap*2 以防不同人製作的產生衝突性
         private float speed = 1.5f;
         private string parameterRun = "開關_行走";
         private string parameterDead = "開關_死亡";
+        private string parameterAttack ="開關_攻擊";
         private Animator ani;
         private Rigidbody2D rig;
         private float h;
@@ -43,6 +44,7 @@ namespace Yuemo //namespace+tap*2 以防不同人製作的產生衝突性
             GetInput();
             Move();
             Rotate();
+            Attack();
         }
         #endregion 事件結束
 
@@ -78,6 +80,20 @@ namespace Yuemo //namespace+tap*2 以防不同人製作的產生衝突性
             //水平or垂直 不等於0 ||=or
             ani.SetBool(parameterRun, h != 0 || V !=0); //動畫控制器.設定布林值(參數 , 布林值) - h不等於0 -只要水平軸不=0 就勾選 跑步參數
 
+        }
+
+        private void Attack()
+        {            
+            if(Input.GetKeyDown(KeyCode.E))
+            {
+                ani.SetBool("開關_攻擊",true);
+                Debug.Log("進行攻擊");
+            }
+
+            if(Input.GetKeyUp(KeyCode.E))
+            {
+                ani.SetBool("開關_攻擊",false);
+            }
         }
 
         /// <summary>

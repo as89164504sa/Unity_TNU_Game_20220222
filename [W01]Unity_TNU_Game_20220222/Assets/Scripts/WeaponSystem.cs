@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 
 namespace Yuemo
@@ -11,13 +12,24 @@ namespace Yuemo
     /// </summary>
     public class WeaponSystem : MonoBehaviour
     {
+        [SerializeField, Header("武器資料清單")]
+        private List<DateWeapon> dateWaponList;
+
+        private int _iDataIndex=0;//
+        
         [SerializeField, Header("武器資料")]
         private DateWeapon dateWeapon;
 
+        /*[SerializeField, Header("武器資料2")]
+        private DateWeapon dateWeapon2;
+
+        [SerializeField, Header("武器資料3")]
+          private DateWeapon dateWeapon3;*/
         /// <summary>
         /// 計時器
         /// </summary>
         private float timer;
+        private float T2=0;
 
         /// <summary>
         /// 繪製圖示
@@ -53,6 +65,9 @@ namespace Yuemo
         private void Update()
         {
             SpawnWeapon();
+            SpawnInput();
+
+
         }
 
         ///<summary>
@@ -61,14 +76,13 @@ namespace Yuemo
         /// </summary>
         private void SpawnWeapon()
         {
-            //print("經過時間:" + timer);
-
+           /* //print("經過時間:" + timer);
             //如果 計時器 大於等於 間隔時間
             if (timer >= dateWeapon.interval)
             {
+
                 //隨機值 = 隨機.範圍(最小值，最大值) ※整數不包含最大值
                 int random = Random.Range(0, dateWeapon.v2SpawnPoint.Length);//取得範圍0-1-2
-
                 //座標
                 Vector3 pos = transform.position + dateWeapon.v2SpawnPoint[random];
                 //Quaternion 四位元 - 紀錄角度資訊
@@ -85,8 +99,56 @@ namespace Yuemo
             {
                 //計時器 累加 一個影格的時間
                 timer += Time.deltaTime;
+            }*/
+
+            if(timer >= dateWaponList[_iDataIndex].interval)
+            {
+                int iCount=Random.Range(dateWaponList[_iDataIndex].counStart,dateWaponList[_iDataIndex].countmax);
+                for(int i=0;i<iCount;i++)
+                {
+                    //隨機值 = 隨機.範圍(最小值，最大值) ※整數不包含最大值
+                    int random = Random.Range(0, dateWaponList[_iDataIndex].v2SpawnPoint.Length);//取得範圍0-1-2
+                    //座標
+                    Vector3 pos = transform.position + dateWaponList[_iDataIndex].v2SpawnPoint[random];
+                    //Quaternion 四位元 - 紀錄角度資訊
+                    //Quaternion.identity 零角度(0,0,0)
+                    //生成(物件)
+                    GameObject temp = Instantiate(dateWaponList[_iDataIndex].goWeapon,pos,Quaternion.identity);
+                    //暫存武器.取得元件<剛體>().添加推力(方向 * 速度)
+                    temp.GetComponent<Rigidbody2D>().AddForce(dateWaponList[_iDataIndex].v3Direction * dateWaponList[_iDataIndex].speedFly);
+                }
+               
+                //計時器 歸零
+                timer = 0;
             }
+            
+            //否則
+            else
+            {
+                //計時器 累加 一個影格的時間
+                timer += Time.deltaTime;
+            }
+
         }
+        private void SpawnInput()
+        {
+            if (Input.GetKeyDown(KeyCode.E) && T2 >= 0.5f)
+            {
+                _iDataIndex+=1;
+                if(_iDataIndex>=dateWaponList.Count)
+                {
+                    _iDataIndex=0;
+                }
+                T2=0;
+
+            }
+            else
+            {
+                T2+=Time.deltaTime;
+            }
+
+        }
+
     }
 }
 
