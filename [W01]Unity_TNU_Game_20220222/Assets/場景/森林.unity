@@ -307,7 +307,7 @@ GameObject:
   - component: {fileID: 354018147}
   - component: {fileID: 354018146}
   - component: {fileID: 354018145}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: "\u7A7A\u6C23\u7246 \u53F3"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -416,7 +416,7 @@ GameObject:
   - component: {fileID: 427824325}
   - component: {fileID: 427824324}
   - component: {fileID: 427824323}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: "\u7A7A\u6C23\u7246 \u4E0B"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -525,7 +525,7 @@ GameObject:
   - component: {fileID: 543825797}
   - component: {fileID: 543825796}
   - component: {fileID: 543825795}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: "\u7A7A\u6C23\u7246 \u4E0A"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15103,6 +15103,63 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1001 &1846339040
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 9200905885496749261, guid: 9099836e050ec634ab34550b71af894a, type: 3}
+      propertyPath: m_Name
+      value: Attack_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200905885496749299, guid: 9099836e050ec634ab34550b71af894a, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200905885496749299, guid: 9099836e050ec634ab34550b71af894a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.621
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200905885496749299, guid: 9099836e050ec634ab34550b71af894a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.142
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200905885496749299, guid: 9099836e050ec634ab34550b71af894a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200905885496749299, guid: 9099836e050ec634ab34550b71af894a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200905885496749299, guid: 9099836e050ec634ab34550b71af894a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200905885496749299, guid: 9099836e050ec634ab34550b71af894a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200905885496749299, guid: 9099836e050ec634ab34550b71af894a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200905885496749299, guid: 9099836e050ec634ab34550b71af894a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200905885496749299, guid: 9099836e050ec634ab34550b71af894a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200905885496749299, guid: 9099836e050ec634ab34550b71af894a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9099836e050ec634ab34550b71af894a, type: 3}
 --- !u!1 &1907979972
 GameObject:
   m_ObjectHideFlags: 0
@@ -15409,7 +15466,7 @@ GameObject:
   - component: {fileID: 2132536705}
   - component: {fileID: 2132536704}
   - component: {fileID: 2132536703}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: "\u7A7A\u6C23\u7246 \u5DE6"
   m_TagString: Untagged
   m_Icon: {fileID: 0}

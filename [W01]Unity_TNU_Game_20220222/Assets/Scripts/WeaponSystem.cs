@@ -20,6 +20,9 @@ namespace Yuemo
         [SerializeField, Header("武器資料")]
         private DateWeapon dateWeapon;
 
+        //[SerializeField, Header("武器武器刪除時間"), Range(0, 5)]
+        //private float weaponDestoryTime = 3.5f;
+
         /*[SerializeField, Header("武器資料2")]
         private DateWeapon dateWeapon2;
 
@@ -61,6 +64,7 @@ namespace Yuemo
             //2D物理.忽略圖層碰撞(圖層1，圖層2)
             Physics2D.IgnoreLayerCollision(3, 6);//武器與玩家 不碰撞
             Physics2D.IgnoreLayerCollision(6, 6);//武器與武器 不碰撞
+            Physics2D.IgnoreLayerCollision(6, 8);//武器與空氣牆 不碰撞
         }
         private void Update()
         {
@@ -116,10 +120,14 @@ namespace Yuemo
                     GameObject temp = Instantiate(dateWaponList[_iDataIndex].goWeapon,pos,Quaternion.identity);
                     //暫存武器.取得元件<剛體>().添加推力(方向 * 速度)
                     temp.GetComponent<Rigidbody2D>().AddForce(dateWaponList[_iDataIndex].v3Direction * dateWaponList[_iDataIndex].speedFly);
+                    //刪除物件(遊戲物件,延遲時間)
+                    //Destroy(temp, weaponDestoryTime);
                 }
                
                 //計時器 歸零
                 timer = 0;
+
+                
             }
             
             //否則
