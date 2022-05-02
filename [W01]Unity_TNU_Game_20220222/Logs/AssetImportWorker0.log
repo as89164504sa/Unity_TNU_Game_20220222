@@ -1,127 +1,130 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'zh' Physical Memory: 16217 MB
+Built from '2020.3/staging' branch; Version is '2020.3.33f1 (915a7af8b0d5) revision 9525882'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'zh' Physical Memory: 8074 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/user/Desktop/Yuemo/Unity_TNU_Game_20220222/[W01]Unity_TNU_Game_20220222
+C:/Users/User/Desktop/Yuemo_03/Unity_TNU_Game_20220222/[W01]Unity_TNU_Game_20220222
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-2324
-Successfully changed project path to: C:/Users/user/Desktop/Yuemo/Unity_TNU_Game_20220222/[W01]Unity_TNU_Game_20220222
-C:/Users/user/Desktop/Yuemo/Unity_TNU_Game_20220222/[W01]Unity_TNU_Game_20220222
+62093
+Successfully changed project path to: C:/Users/User/Desktop/Yuemo_03/Unity_TNU_Game_20220222/[W01]Unity_TNU_Game_20220222
+C:/Users/User/Desktop/Yuemo_03/Unity_TNU_Game_20220222/[W01]Unity_TNU_Game_20220222
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 64.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.25f1 (9b9180224418)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/user/Desktop/Yuemo/Unity_TNU_Game_20220222/[W01]Unity_TNU_Game_20220222/Assets
+Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Desktop/Yuemo_03/Unity_TNU_Game_20220222/[W01]Unity_TNU_Game_20220222/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 SUPER (ID=0x2187)
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce MX110 (ID=0x174e)
     Vendor:   
-    VRAM:     3955 MB
-    Driver:   27.21.14.5671
+    VRAM:     2010 MB
+    Driver:   27.21.14.6231
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004267 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.002229 seconds.
+Native extension for Lumin target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 67.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 58.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.556 seconds
+- Completed reload, in  0.696 seconds
 Domain Reload Profiling:
-	ReloadAssembly (556ms)
-		BeginReloadAssembly (63ms)
+	ReloadAssembly (696ms)
+		BeginReloadAssembly (69ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (420ms)
-			LoadAssemblies (60ms)
+		EndReloadAssembly (542ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (123ms)
+			SetupTypeCache (176ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (178ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (208ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (68ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (66ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (93ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004253 seconds.
+Registered in 0.003211 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\Yuemo\Unity_TNU_Game_20220222\[W01]Unity_TNU_Game_20220222\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\Yuemo_03\Unity_TNU_Game_20220222\[W01]Unity_TNU_Game_20220222\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for Lumin target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 58.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.971 seconds
+- Completed reload, in  1.344 seconds
 Domain Reload Profiling:
-	ReloadAssembly (971ms)
-		BeginReloadAssembly (141ms)
+	ReloadAssembly (1345ms)
+		BeginReloadAssembly (181ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (766ms)
-			LoadAssemblies (99ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1094ms)
+			LoadAssemblies (111ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (250ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (305ms)
+			SetupTypeCache (356ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (426ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (178ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (240ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2357 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.7 MB.
-System memory in use after: 106.9 MB.
+Unloading 2359 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.6 MB.
+System memory in use after: 105.8 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2793.
-Total: 2.528100 ms (FindLiveObjects: 0.161700 ms CreateObjectMapping: 0.080800 ms MarkObjects: 2.242600 ms  DeleteObjects: 0.042000 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2797.
+Total: 3.652900 ms (FindLiveObjects: 0.207300 ms CreateObjectMapping: 0.094800 ms MarkObjects: 3.276900 ms  DeleteObjects: 0.072800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,545 +138,2111 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Attack.png
-  artifactKey: Guid(22f3b7359f2c2d24a9aed47df5e70171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Attack.png using Guid(22f3b7359f2c2d24a9aed47df5e70171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c957662ca4b3528f1d35f493eb71143f') in 0.048261 seconds 
-  Import took 0.051832 seconds .
-
+  path: Assets/素材/無摩擦力.physicsMaterial2D
+  artifactKey: Guid(8c390b329b6fa6247b782407d981254b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/無摩擦力.physicsMaterial2D using Guid(8c390b329b6fa6247b782407d981254b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23cdc5b00bf078ac1438b01077ca81f7') in 0.047951 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.883536 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Attack.png
-  artifactKey: Guid(22f3b7359f2c2d24a9aed47df5e70171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Attack.png using Guid(22f3b7359f2c2d24a9aed47df5e70171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2399e25e4383e34b53d28a3764e9a0') in 0.064939 seconds 
-  Import took 0.068179 seconds .
-
+  Time since last request: 0.000280 seconds.
+  path: Assets/怪物資料/士兵.asset
+  artifactKey: Guid(5a3efa117cad08e4c881ba3f1c341803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/怪物資料/士兵.asset using Guid(5a3efa117cad08e4c881ba3f1c341803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e595ad79d1d77a2e20e535c1c3a291db') in 0.011649 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.009463 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Death.png
-  artifactKey: Guid(7511b3e1c0ca4fd4ca4d62d1e7e7df1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Death.png using Guid(7511b3e1c0ca4fd4ca4d62d1e7e7df1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c07bf962aabfb3c4141269ac63d001a') in 0.010321 seconds 
-  Import took 0.013609 seconds .
-
+  Time since last request: 18.826383 seconds.
+  path: Assets/怪物動畫
+  artifactKey: Guid(0b05eb081f246ee44b52c9463a561373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/怪物動畫 using Guid(0b05eb081f246ee44b52c9463a561373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4530ca3af7ac34c6ecdd59188a6ffaae') in 0.010180 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.010836 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Death.png
-  artifactKey: Guid(7511b3e1c0ca4fd4ca4d62d1e7e7df1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Death.png using Guid(7511b3e1c0ca4fd4ca4d62d1e7e7df1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092636e839871f63717c0d20730600c1') in 0.006651 seconds 
-  Import took 0.009775 seconds .
-
+  Time since last request: 8.426997 seconds.
+  path: Assets/角色動畫/player.controller
+  artifactKey: Guid(b93c2d9bed63f1d46a5cd243440717a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/角色動畫/player.controller using Guid(b93c2d9bed63f1d46a5cd243440717a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095c3e02aa6b9a2cdb14f79532f92959') in 0.016179 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.491611 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Death.png
-  artifactKey: Guid(7511b3e1c0ca4fd4ca4d62d1e7e7df1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Death.png using Guid(7511b3e1c0ca4fd4ca4d62d1e7e7df1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a6089c741b80163ab9044ff492601f') in 0.027285 seconds 
-  Import took 0.030617 seconds .
-
+  Time since last request: 0.572337 seconds.
+  path: Assets/角色動畫/Skeleton Attack_0.controller
+  artifactKey: Guid(efc5c8792cc536c4da905387292365fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/角色動畫/Skeleton Attack_0.controller using Guid(efc5c8792cc536c4da905387292365fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cade9a068c09b2adb4e165fd3e5e00ab') in 0.016465 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.734842 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Idle.png
-  artifactKey: Guid(7281d961ed21cdc4aa9ec6e3f8e141ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Idle.png using Guid(7281d961ed21cdc4aa9ec6e3f8e141ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429e9722e6c62d6b582bf34e6399b384') in 0.007870 seconds 
-  Import took 0.011918 seconds .
-
+  Time since last request: 20.050986 seconds.
+  path: Assets/moster/Monster_Creatures_Fantasy(Version 1.3)/Monster_Creatures_Fantasy(Version 1.3)/Mushroom/Attack3.png
+  artifactKey: Guid(5127be0840f5fe743ab8edab22e1541f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monster_Creatures_Fantasy(Version 1.3)/Monster_Creatures_Fantasy(Version 1.3)/Mushroom/Attack3.png using Guid(5127be0840f5fe743ab8edab22e1541f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721eb03bec119e6bfb30e606a5644dfe') in 0.091665 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.194728 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Idle.png
-  artifactKey: Guid(7281d961ed21cdc4aa9ec6e3f8e141ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Idle.png using Guid(7281d961ed21cdc4aa9ec6e3f8e141ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f18d21ca601c8f226084b8d89dd76f') in 0.018576 seconds 
-  Import took 0.022128 seconds .
-
+  Time since last request: 0.000309 seconds.
+  path: Assets/moster/Monster_Creatures_Fantasy(Version 1.3)/Monster_Creatures_Fantasy(Version 1.3)/Mushroom/Projectile_sprite.png
+  artifactKey: Guid(091ca3a47bb980f4cabe64ecddf268cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monster_Creatures_Fantasy(Version 1.3)/Monster_Creatures_Fantasy(Version 1.3)/Mushroom/Projectile_sprite.png using Guid(091ca3a47bb980f4cabe64ecddf268cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec47b6bdcace1d837574ba1531b2ab90') in 0.044787 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.648114 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Idle.png
-  artifactKey: Guid(7281d961ed21cdc4aa9ec6e3f8e141ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Idle.png using Guid(7281d961ed21cdc4aa9ec6e3f8e141ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a71196f1e10a55190c20834dd92e36') in 0.027637 seconds 
-  Import took 0.031152 seconds .
-
+  Time since last request: 19.287297 seconds.
+  path: Assets/moster/Monster_Creatures_Fantasy(Version 1.3)/Monster_Creatures_Fantasy(Version 1.3)/Mushroom/Attack3.png
+  artifactKey: Guid(5127be0840f5fe743ab8edab22e1541f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monster_Creatures_Fantasy(Version 1.3)/Monster_Creatures_Fantasy(Version 1.3)/Mushroom/Attack3.png using Guid(5127be0840f5fe743ab8edab22e1541f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ad43089e48513c287bb0fb61f0bc46') in 0.025748 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 47.597814 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Attack.png
-  artifactKey: Guid(22f3b7359f2c2d24a9aed47df5e70171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Attack.png using Guid(22f3b7359f2c2d24a9aed47df5e70171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac2d522eec2e90619e448e394ad6dae') in 0.049184 seconds 
-  Import took 0.052169 seconds .
-
+  Time since last request: 11.677609 seconds.
+  path: Assets/moster/Monster_Creatures_Fantasy(Version 1.3)/Monster_Creatures_Fantasy(Version 1.3)/Mushroom/Attack3.png
+  artifactKey: Guid(5127be0840f5fe743ab8edab22e1541f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monster_Creatures_Fantasy(Version 1.3)/Monster_Creatures_Fantasy(Version 1.3)/Mushroom/Attack3.png using Guid(5127be0840f5fe743ab8edab22e1541f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136a01b52e1cf14d283bbbcabfda6f62') in 0.015549 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Idle.png
-  artifactKey: Guid(7281d961ed21cdc4aa9ec6e3f8e141ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Idle.png using Guid(7281d961ed21cdc4aa9ec6e3f8e141ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5886eb225231e71084ad1dadb06af40a') in 0.026892 seconds 
-  Import took 0.030115 seconds .
-
+  Time since last request: 39.003922 seconds.
+  path: Assets/moster/Monster_Creatures_Fantasy(Version 1.3)/Monster_Creatures_Fantasy(Version 1.3)/Mushroom/Attack3.png
+  artifactKey: Guid(5127be0840f5fe743ab8edab22e1541f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monster_Creatures_Fantasy(Version 1.3)/Monster_Creatures_Fantasy(Version 1.3)/Mushroom/Attack3.png using Guid(5127be0840f5fe743ab8edab22e1541f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4f51b7614d1592d9b2366dba615699') in 0.063206 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Death.png
-  artifactKey: Guid(7511b3e1c0ca4fd4ca4d62d1e7e7df1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Death.png using Guid(7511b3e1c0ca4fd4ca4d62d1e7e7df1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24cf0635512f8da26a76ff6601475bd7') in 0.017379 seconds 
-  Import took 0.020833 seconds .
-
+  Time since last request: 22.301320 seconds.
+  path: Assets/moster/Monster_Creatures_Fantasy(Version 1.3)/Monster_Creatures_Fantasy(Version 1.3)/Mushroom/Attack3.png
+  artifactKey: Guid(5127be0840f5fe743ab8edab22e1541f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monster_Creatures_Fantasy(Version 1.3)/Monster_Creatures_Fantasy(Version 1.3)/Mushroom/Attack3.png using Guid(5127be0840f5fe743ab8edab22e1541f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46022b1a2a6a3d58328faa59e0866271') in 0.061316 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.365736 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Attack.png
-  artifactKey: Guid(22f3b7359f2c2d24a9aed47df5e70171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Attack.png using Guid(22f3b7359f2c2d24a9aed47df5e70171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16757cd935069019cce39dc23567a9be') in 0.046502 seconds 
-  Import took 0.051011 seconds .
-
+  Time since last request: 4.208347 seconds.
+  path: Assets/moster/Monster_Creatures_Fantasy(Version 1.3)/Monster_Creatures_Fantasy(Version 1.3)/Mushroom/Attack3.png
+  artifactKey: Guid(5127be0840f5fe743ab8edab22e1541f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monster_Creatures_Fantasy(Version 1.3)/Monster_Creatures_Fantasy(Version 1.3)/Mushroom/Attack3.png using Guid(5127be0840f5fe743ab8edab22e1541f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc465ba250795b2dc925ce80fbd0f7e') in 0.086371 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Idle.png
-  artifactKey: Guid(7281d961ed21cdc4aa9ec6e3f8e141ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Idle.png using Guid(7281d961ed21cdc4aa9ec6e3f8e141ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbaacfed57681fae8cb75334f0726f0') in 0.032604 seconds 
-  Import took 0.035574 seconds .
+  Time since last request: 8.616028 seconds.
+  path: Assets/moster/Monster_Creatures_Fantasy(Version 1.3)/Monster_Creatures_Fantasy(Version 1.3)/Mushroom/Attack3.png
+  artifactKey: Guid(5127be0840f5fe743ab8edab22e1541f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monster_Creatures_Fantasy(Version 1.3)/Monster_Creatures_Fantasy(Version 1.3)/Mushroom/Attack3.png using Guid(5127be0840f5fe743ab8edab22e1541f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e6faf95b6fb0be695a76f44fdadded') in 0.082907 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003189 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\Yuemo_03\Unity_TNU_Game_20220222\[W01]Unity_TNU_Game_20220222\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.345 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1346ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1137ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (450ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (382ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2346 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.9 MB.
+System memory in use after: 108.1 MB.
 
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2810.
+Total: 3.508500 ms (FindLiveObjects: 0.216700 ms CreateObjectMapping: 0.099900 ms MarkObjects: 3.162700 ms  DeleteObjects: 0.028300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Death.png
-  artifactKey: Guid(7511b3e1c0ca4fd4ca4d62d1e7e7df1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Death.png using Guid(7511b3e1c0ca4fd4ca4d62d1e7e7df1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6316fe8438781ce7369e7f4fe2e2d8ac') in 0.032228 seconds 
-  Import took 0.035996 seconds .
-
+  Time since last request: 186.164826 seconds.
+  path: Assets/怪物動畫/Moster_02.prefab
+  artifactKey: Guid(1fe1c047d0ca7bc43b01fa9150bec1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/怪物動畫/Moster_02.prefab using Guid(1fe1c047d0ca7bc43b01fa9150bec1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a6a6ec45ad4d54ba11ad0c54cd0f41') in 0.095280 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.945778 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Attack.png
-  artifactKey: Guid(22f3b7359f2c2d24a9aed47df5e70171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Attack.png using Guid(22f3b7359f2c2d24a9aed47df5e70171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb3056d431e0a6fbf350de1c649655e') in 0.047242 seconds 
-  Import took 0.050449 seconds .
-
+  Time since last request: 57.685594 seconds.
+  path: Assets/怪物動畫/Moster_02.prefab
+  artifactKey: Guid(1fe1c047d0ca7bc43b01fa9150bec1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/怪物動畫/Moster_02.prefab using Guid(1fe1c047d0ca7bc43b01fa9150bec1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa2521ce68c655d35ec67742ffc361b') in 0.012733 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Idle.png
-  artifactKey: Guid(7281d961ed21cdc4aa9ec6e3f8e141ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Idle.png using Guid(7281d961ed21cdc4aa9ec6e3f8e141ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fdfc5d96355e963616ed647e707ca54') in 0.024109 seconds 
-  Import took 0.026930 seconds .
-
+  Time since last request: 4.505802 seconds.
+  path: Assets/怪物動畫/Moster_02.prefab
+  artifactKey: Guid(1fe1c047d0ca7bc43b01fa9150bec1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/怪物動畫/Moster_02.prefab using Guid(1fe1c047d0ca7bc43b01fa9150bec1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ebc879379055e925b007317ae4cfa63') in 0.017052 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Death.png
-  artifactKey: Guid(7511b3e1c0ca4fd4ca4d62d1e7e7df1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Death.png using Guid(7511b3e1c0ca4fd4ca4d62d1e7e7df1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf4154b33cb88922d6f672145b5c4bf') in 0.015648 seconds 
-  Import took 0.018490 seconds .
-
+  Time since last request: 87.104707 seconds.
+  path: Assets/Scripts/Scont.cs
+  artifactKey: Guid(c6d1a6dae6e84ea4386027ba8ae9112a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Scont.cs using Guid(c6d1a6dae6e84ea4386027ba8ae9112a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae334ac17179a3107745d34229bc48cf') in 0.023554 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.402877 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Attack.png
-  artifactKey: Guid(22f3b7359f2c2d24a9aed47df5e70171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Attack.png using Guid(22f3b7359f2c2d24a9aed47df5e70171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24527469598af4a1ccc8f7155f2dc73') in 0.029590 seconds 
-  Import took 0.032831 seconds .
+  Time since last request: 4.985646 seconds.
+  path: Assets/Scripts/TopDownController.cs
+  artifactKey: Guid(6ea8b11554d58c349be54049cfdb35b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TopDownController.cs using Guid(6ea8b11554d58c349be54049cfdb35b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db57dae68ad2a5da9af14e88d40bd6a') in 0.008064 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004283 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\Yuemo_03\Unity_TNU_Game_20220222\[W01]Unity_TNU_Game_20220222\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.540 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1541ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1342ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (573ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (410ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2346 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.0 MB.
+System memory in use after: 108.2 MB.
 
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2817.
+Total: 3.891900 ms (FindLiveObjects: 0.207800 ms CreateObjectMapping: 0.100800 ms MarkObjects: 3.554500 ms  DeleteObjects: 0.027700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003110 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\Yuemo_03\Unity_TNU_Game_20220222\[W01]Unity_TNU_Game_20220222\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.360 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1360ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1167ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (505ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (351ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2346 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.0 MB.
+System memory in use after: 108.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2820.
+Total: 3.419400 ms (FindLiveObjects: 0.206800 ms CreateObjectMapping: 0.103500 ms MarkObjects: 3.083600 ms  DeleteObjects: 0.024300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Idle.png
-  artifactKey: Guid(7281d961ed21cdc4aa9ec6e3f8e141ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Idle.png using Guid(7281d961ed21cdc4aa9ec6e3f8e141ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7798228ece459ba7f5e0297887eabdf') in 0.015828 seconds 
-  Import took 0.018786 seconds .
+  Time since last request: 103.176409 seconds.
+  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Most01_Attack.controller
+  artifactKey: Guid(b4282a50189f40c4a813cdbd86ad4ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Most01_Attack.controller using Guid(b4282a50189f40c4a813cdbd86ad4ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea85bf631f3a341cbdea25ac70f5110') in 0.031714 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004596 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\Yuemo_03\Unity_TNU_Game_20220222\[W01]Unity_TNU_Game_20220222\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.361 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1361ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1174ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (439ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (389ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2346 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.1 MB.
+System memory in use after: 108.3 MB.
 
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2823.
+Total: 3.431400 ms (FindLiveObjects: 0.241000 ms CreateObjectMapping: 0.164800 ms MarkObjects: 3.000300 ms  DeleteObjects: 0.024300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 47.792528 seconds.
+  path: Assets/怪物動畫/Moster_2.controller
+  artifactKey: Guid(1f65eb2b3a832b841861417869eb1485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/怪物動畫/Moster_2.controller using Guid(1f65eb2b3a832b841861417869eb1485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b657c066fc11022558f14a8e72c08783') in 0.021194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.342687 seconds.
+  path: Assets/角色動畫/Idle.anim
+  artifactKey: Guid(f35f019d84ae5c8428a3ccacca093e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/角色動畫/Idle.anim using Guid(f35f019d84ae5c8428a3ccacca093e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6440662bf90f01edc06902f4b042d8d') in 0.011744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.310087 seconds.
+  path: Assets/角色動畫/Attack.anim
+  artifactKey: Guid(8a504ff04096c354795d725a6db151d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/角色動畫/Attack.anim using Guid(8a504ff04096c354795d725a6db151d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f15d34cdd19ea71cfeba155cfeb2cf') in 0.008574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.489401 seconds.
+  path: Assets/角色動畫/Dead.anim
+  artifactKey: Guid(97b03400d3fdbcd4db78017e62b78ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/角色動畫/Dead.anim using Guid(97b03400d3fdbcd4db78017e62b78ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eeb8f9ed7587fea76ead820dd0fcf6f') in 0.011817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 104.495693 seconds.
+  path: Assets/怪物動畫/Moster_Attack.anim
+  artifactKey: Guid(dcd901239e2a49d438dd973fd994d196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/怪物動畫/Moster_Attack.anim using Guid(dcd901239e2a49d438dd973fd994d196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483c528325a8b58db19b2aa0aa90292c') in 0.007931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 154.839579 seconds.
+  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Mushroom
+  artifactKey: Guid(2442e4a46672416468f7a0ced00c6fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Mushroom using Guid(2442e4a46672416468f7a0ced00c6fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5184b5675e9a88bd3406cf30ac372150') in 0.008880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.537870 seconds.
+  path: Assets/怪物動畫/N.anim
+  artifactKey: Guid(726d7a99b6f87f442b07cfebfcb3b3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/怪物動畫/N.anim using Guid(726d7a99b6f87f442b07cfebfcb3b3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4272c3716e26292c6292559c563129') in 0.007621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.641556 seconds.
+  path: Assets/怪物動畫/New Animation.anim
+  artifactKey: Guid(61f37f26fce6c55419090b571e12341d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/怪物動畫/New Animation.anim using Guid(61f37f26fce6c55419090b571e12341d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6397992cdda83d6b489716cac0fa1d6') in 0.008458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 91.733442 seconds.
+  path: Assets/怪物動畫/Run_0.controller
+  artifactKey: Guid(98952071af6ecc44ca24618e6fbbd28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/怪物動畫/Run_0.controller using Guid(98952071af6ecc44ca24618e6fbbd28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a230e319bc9a4fe92b8c016cd4243d24') in 0.008362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.649191 seconds.
+  path: Assets/怪物動畫/moster02_run.anim
+  artifactKey: Guid(17ffdba178dd902438a5fa999c49350a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/怪物動畫/moster02_run.anim using Guid(17ffdba178dd902438a5fa999c49350a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153eafc5e44732043fe560e8fb8ab3ec') in 0.008193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 110.635652 seconds.
+  path: Assets/素材/武器/#1 - Transparent Icons.png
+  artifactKey: Guid(058584d5f41767848b545da9059fab3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/武器/#1 - Transparent Icons.png using Guid(058584d5f41767848b545da9059fab3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02136913991708f13a50eef840c15426') in 1.106777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/素材/武器/BG 3a.png
+  artifactKey: Guid(6e239e6418d4710498917090a76768e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/武器/BG 3a.png using Guid(6e239e6418d4710498917090a76768e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b7eafb5823351363c6aa6c953cd0cb') in 0.044194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/素材/武器/BG 9.png
+  artifactKey: Guid(749d9e4e902a49a45995133be35a51f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/武器/BG 9.png using Guid(749d9e4e902a49a45995133be35a51f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66cdb3feef6b6708f5a3a503486c9fc2') in 0.034482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/素材/武器/Background 1b.png
+  artifactKey: Guid(083e2bf3406f83045b1e57696b12d0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/武器/Background 1b.png using Guid(083e2bf3406f83045b1e57696b12d0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c1593ecf4d4659987850053f878f22') in 0.033438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/arrow_plate_left.png
+  artifactKey: Guid(23b269c6cb868cd459e0e987eab45b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/arrow_plate_left.png using Guid(23b269c6cb868cd459e0e987eab45b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3caaffb09a4fc25f8ead304506fe806a') in 0.027027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/tiles and background_foreground (new)/bg_1.png
+  artifactKey: Guid(e74446b012ce29b4faf3b8f28ca7081f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/tiles and background_foreground (new)/bg_1.png using Guid(e74446b012ce29b4faf3b8f28ca7081f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9929c091e0685f053b666df43b8bba') in 0.028271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/素材/武器/#2 - Transparent Icons & Drop Shadow.png
+  artifactKey: Guid(dad84a9aee531854d9cf1de1e128c26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/武器/#2 - Transparent Icons & Drop Shadow.png using Guid(dad84a9aee531854d9cf1de1e128c26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa44591b8825cb6e377dc3d19838261') in 0.038679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/素材/武器/BG 3b.png
+  artifactKey: Guid(204578642de6125448f18f71749ff4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/武器/BG 3b.png using Guid(204578642de6125448f18f71749ff4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be85c6ef1bdd0ea6bb795b2db117636') in 0.040127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/素材/武器/Background 2.png
+  artifactKey: Guid(b87b4dd061db4df4a8cec71946a8c8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/武器/Background 2.png using Guid(b87b4dd061db4df4a8cec71946a8c8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a0aa2e3867630459ad7abb39fcb304') in 0.042915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/apple_item.png
+  artifactKey: Guid(41fc1c2c438307e4f8cc01e00b760964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/apple_item.png using Guid(41fc1c2c438307e4f8cc01e00b760964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3867a0424a49c1eb0c63a9b867f60cad') in 0.028742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/tiles and background_foreground (new)/bg_0.png
+  artifactKey: Guid(c1b8fd805a4426746a55b3a591eb1d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/tiles and background_foreground (new)/bg_0.png using Guid(c1b8fd805a4426746a55b3a591eb1d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac53eab483126a7da61a992f98a94751') in 0.027152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/bigflowers_props.png
+  artifactKey: Guid(24443d45aa9abd34bafb697e156d30cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/bigflowers_props.png using Guid(24443d45aa9abd34bafb697e156d30cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4070008a8042ae10705e2900079d483') in 0.032000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/antidote_potion.png
+  artifactKey: Guid(69a907a645efe474797d50ea91fffbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/antidote_potion.png using Guid(69a907a645efe474797d50ea91fffbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f71a70612743eafc24711366cfd26a') in 0.029581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/素材/武器/BG 4b.png
+  artifactKey: Guid(e55694755c5774d4f9ffadf863b362ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/武器/BG 4b.png using Guid(e55694755c5774d4f9ffadf863b362ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd74bf55b3692ad96f4679f483efce6') in 0.041757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/素材/武器/Background 1a.png
+  artifactKey: Guid(8da18959c85804046af5ff3fcb57749f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/武器/Background 1a.png using Guid(8da18959c85804046af5ff3fcb57749f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d3f6fb537cb0d01b220223096d5a3a') in 0.043568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/素材/武器/BG 5.png
+  artifactKey: Guid(d9583c4fca8c21944b405cda6e87d9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/武器/BG 5.png using Guid(d9583c4fca8c21944b405cda6e87d9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391adda02ab3fb4a2a1f7e137ae15fc4') in 0.038201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/素材/武器/BG 4a.png
+  artifactKey: Guid(b0804efebf98a8a409dde711de04961e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/武器/BG 4a.png using Guid(b0804efebf98a8a409dde711de04961e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7a97361cd2f0deb390048caebb95bd') in 0.043548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/moster/Monster_Creatures_Fantasy(Version 1.3)/Monster_Creatures_Fantasy(Version 1.3)/Skeleton/Attack3.png
+  artifactKey: Guid(29d37e71b88edfa4c999ce9d00393aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monster_Creatures_Fantasy(Version 1.3)/Monster_Creatures_Fantasy(Version 1.3)/Skeleton/Attack3.png using Guid(29d37e71b88edfa4c999ce9d00393aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8a5184c11c82c1c61e77365a19353b') in 0.035477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/[01]Image/Sprout Lands - Sprites - Basic pack/Objects/Basic Plants.png
+  artifactKey: Guid(19c2b080cfbe100478add28efed045aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[01]Image/Sprout Lands - Sprites - Basic pack/Objects/Basic Plants.png using Guid(19c2b080cfbe100478add28efed045aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c61dac908034dc69666020f7231b12c') in 0.177964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/moster/Monster_Creatures_Fantasy(Version 1.2)/Monster_Creatures_Fantasy(Version 1.2)/Goblin/Attack2.png
+  artifactKey: Guid(7d817bc836bce224aaeda46e0a5b70ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monster_Creatures_Fantasy(Version 1.2)/Monster_Creatures_Fantasy(Version 1.2)/Goblin/Attack2.png using Guid(7d817bc836bce224aaeda46e0a5b70ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c796f0b3bc5e79ea45372ca1195e831') in 0.034130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/素材/武器/BG 8.png
+  artifactKey: Guid(6231bca995a7b52489fa465721d1028c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/武器/BG 8.png using Guid(6231bca995a7b52489fa465721d1028c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dfdbc1450a3344d53bc2913781d8530') in 0.057795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/素材/武器/BG 3c.png
+  artifactKey: Guid(0a2be2a173596f146b38b4b1cedb721e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/武器/BG 3c.png using Guid(0a2be2a173596f146b38b4b1cedb721e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe958c9d617208a4cde4b3053d05ec8') in 0.046055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/tiles and background_foreground (new)/bg_2.png
+  artifactKey: Guid(39c7c26eacecdea41b0e058bf10b524b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/tiles and background_foreground (new)/bg_2.png using Guid(39c7c26eacecdea41b0e058bf10b524b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5b31bff485e61fccc467c2fa13f76b') in 0.052154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/素材/武器/BG 7.png
+  artifactKey: Guid(a0eec41e0a703f948aa7f6f6a8f466db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/武器/BG 7.png using Guid(a0eec41e0a703f948aa7f6f6a8f466db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366b038cb5aa0419021f26aa77ca5686') in 0.050238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/moster/Monster_Creatures_Fantasy(Version 1.2)/Monster_Creatures_Fantasy(Version 1.2)/Mushroom/Attack2.png
+  artifactKey: Guid(1da436fe719a16a469ef6d27f2731a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monster_Creatures_Fantasy(Version 1.2)/Monster_Creatures_Fantasy(Version 1.2)/Mushroom/Attack2.png using Guid(1da436fe719a16a469ef6d27f2731a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef53d5b5d06cc6a76829d010d7ae5d4') in 0.036719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000586 seconds.
+  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Flying eye/Attack.png
+  artifactKey: Guid(33d6a92b9530ea94880a871bd2a427c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Flying eye/Attack.png using Guid(33d6a92b9530ea94880a871bd2a427c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68397a3457e61701a00179e12b1dded0') in 0.079797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/素材/武器/BG 6.png
+  artifactKey: Guid(bce7f1290d45029418644637d6394291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/武器/BG 6.png using Guid(bce7f1290d45029418644637d6394291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd47b54a73f64fee24de423015bad7f') in 0.056487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/arrow_plate_right.png
+  artifactKey: Guid(3d1c817febb2662439615365fb185ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/arrow_plate_right.png using Guid(3d1c817febb2662439615365fb185ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9314e8d1a2a080842c74a8814db81521') in 0.036980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000864 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/tiles and background_foreground (new)/background.png
+  artifactKey: Guid(324cd197026944542b6f30571089b530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/tiles and background_foreground (new)/background.png using Guid(324cd197026944542b6f30571089b530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41eaa03ebb9b478e6486b249d4ce8ecc') in 0.039190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/[01]Image/Sprout Lands - Sprites - Basic pack/Characters/Basic Charakter Spritesheet.png
+  artifactKey: Guid(ec3ee60620df47247a6ebf60d4529985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[01]Image/Sprout Lands - Sprites - Basic pack/Characters/Basic Charakter Spritesheet.png using Guid(ec3ee60620df47247a6ebf60d4529985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ac38f8ba2fbf7981d956e5477aedee') in 0.094877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/moster/Monster_Creatures_Fantasy(Version 1.2)/Monster_Creatures_Fantasy(Version 1.2)/Skeleton/Attack2.png
+  artifactKey: Guid(8a132729d353d074299277e47187a8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monster_Creatures_Fantasy(Version 1.2)/Monster_Creatures_Fantasy(Version 1.2)/Skeleton/Attack2.png using Guid(8a132729d353d074299277e47187a8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da84de2ab30dfdd64711b42867088688') in 0.029876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/素材/武器/BG 10.png
+  artifactKey: Guid(33218128f46ce43458dac1fe31521ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/武器/BG 10.png using Guid(33218128f46ce43458dac1fe31521ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6377967db223c87aacaaaa218199d3e') in 0.052392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/moster/Monster_Creatures_Fantasy(Version 1.2)/Monster_Creatures_Fantasy(Version 1.2)/Flying eye/Attack2.png
+  artifactKey: Guid(5b82eb326ef704d48bf85a995f3f3d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monster_Creatures_Fantasy(Version 1.2)/Monster_Creatures_Fantasy(Version 1.2)/Flying eye/Attack2.png using Guid(5b82eb326ef704d48bf85a995f3f3d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7251753343f07a77c4197746bf885749') in 0.025920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/素材/武器/BG 11.png
+  artifactKey: Guid(e177588c500838944b13209395fb1906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/武器/BG 11.png using Guid(e177588c500838944b13209395fb1906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8892e1842f9264d6a7a9a71d46e9c3') in 0.026546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.647869 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/loot_box_open.png
+  artifactKey: Guid(3954cfc1d72ad8e498ddd356400c1f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/loot_box_open.png using Guid(3954cfc1d72ad8e498ddd356400c1f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec60988b3c37a5415bb8c6fb951366cb') in 0.033675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/mushroom/mushroom_crushed_anim.gif
+  artifactKey: Guid(8879609d501045044a638628b179d0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/mushroom/mushroom_crushed_anim.gif using Guid(8879609d501045044a638628b179d0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e800cd1311f33b76782a39639541d4') in 0.027606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/mushroom/mushroom_walk_anim_strip_8.png
+  artifactKey: Guid(a7c8bfbf853a00b4b9ce510d12959046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/mushroom/mushroom_walk_anim_strip_8.png using Guid(a7c8bfbf853a00b4b9ce510d12959046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c59f62c8e2a6f5bb6f4f9b77ec3c45') in 0.035884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/mushroom/mushroom_hit_anim_strip_3.png
+  artifactKey: Guid(ec92bfd6f89cff846a6b024270b46434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/mushroom/mushroom_hit_anim_strip_3.png using Guid(ec92bfd6f89cff846a6b024270b46434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514f80bab6c12b38dbf6755bc7c57b08') in 0.036507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/save_point_anim.gif
+  artifactKey: Guid(6a1bff7c6071708438873b387575be57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/save_point_anim.gif using Guid(6a1bff7c6071708438873b387575be57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cebea2c6b4bf9d881349c3f5590f1b8') in 0.047921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/mushroom/mushroom_walk_anim.gif
+  artifactKey: Guid(961fbef14cd574c49844d76152f59812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/mushroom/mushroom_walk_anim.gif using Guid(961fbef14cd574c49844d76152f59812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb579471fec1212c567c88ec778b07db') in 0.028675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/save_point_saving_anim_strip_3.png
+  artifactKey: Guid(6a289cdf3c5f0094abb12f5ca9f10318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/save_point_saving_anim_strip_3.png using Guid(6a289cdf3c5f0094abb12f5ca9f10318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df6edfb03e8760f71d8993a08742ae5') in 0.030797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/[01]Image/Sprout Lands - Sprites - Basic pack/Objects/Simple Milk and grass item.png
+  artifactKey: Guid(b61c9c0ccceaa0d43a965b75408a5491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[01]Image/Sprout Lands - Sprites - Basic pack/Objects/Simple Milk and grass item.png using Guid(b61c9c0ccceaa0d43a965b75408a5491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776e9fef84628c5854008543cfe562ff') in 0.048204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/[01]Image/Sprout Lands - Sprites - Basic pack/Objects/Paths.png
+  artifactKey: Guid(d83da3051812b8d40b0a7d1fcca9a858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[01]Image/Sprout Lands - Sprites - Basic pack/Objects/Paths.png using Guid(d83da3051812b8d40b0a7d1fcca9a858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71caa3b938c30830c833aefa53c821ca') in 0.051099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/save_point_anim_strip_9.png
+  artifactKey: Guid(b242c18dd6812ab479e3807cf5915655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/save_point_anim_strip_9.png using Guid(b242c18dd6812ab479e3807cf5915655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ef37ecf862c95809bcb8761890306a') in 0.033200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/角色/Skeleton/Sprite Sheets/Skeleton Dead.png
+  artifactKey: Guid(450c152424b2b1241af4d17938ada5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/角色/Skeleton/Sprite Sheets/Skeleton Dead.png using Guid(450c152424b2b1241af4d17938ada5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250e62aba39eda5dffbb4d5938eee985') in 0.088655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/角色/Skeleton/Sprite Sheets/Skeleton Attack.png
+  artifactKey: Guid(390d8b34809522041a807796b72bcf1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/角色/Skeleton/Sprite Sheets/Skeleton Attack.png using Guid(390d8b34809522041a807796b72bcf1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf9d829caf251d5a7d6b302f31cf458') in 0.095741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/mushroom/mushroom_death_anim.gif
+  artifactKey: Guid(9eeb65bb1e664ed4eb52cf7715669dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/mushroom/mushroom_death_anim.gif using Guid(9eeb65bb1e664ed4eb52cf7715669dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53365e930340b3b26d17d703eda5e4a') in 0.018842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/mushroom/mushroom_hit_anim.gif
+  artifactKey: Guid(2a8027c5b04558543b3800e795c44e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/mushroom/mushroom_hit_anim.gif using Guid(2a8027c5b04558543b3800e795c44e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa7150f147517cce6597524cc8b8c1e') in 0.017739 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000207 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/orb_anim.gif
+  artifactKey: Guid(6380f2a834f120249b7be13d2993e42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/orb_anim.gif using Guid(6380f2a834f120249b7be13d2993e42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e6642e6bfd314b48bee0ac316a2727') in 0.026342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/mushroom/mushroom_spritesheet.png
+  artifactKey: Guid(cfad173356012c94eac006e90a601306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/mushroom/mushroom_spritesheet.png using Guid(cfad173356012c94eac006e90a601306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed5a30767c2c145323dfb3c1702e64c5') in 0.032041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/orb_collected_anim_strip_5.png
+  artifactKey: Guid(ce60421fd0b68c640bf891e6d25a80b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/orb_collected_anim_strip_5.png using Guid(ce60421fd0b68c640bf891e6d25a80b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf681900b015ec0025fc15e5ac6975e') in 0.030120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/角色/Skeleton/GIFS/Skeleton Attack.gif
+  artifactKey: Guid(832b3e5c75ef7d543a869fb5f991f01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/角色/Skeleton/GIFS/Skeleton Attack.gif using Guid(832b3e5c75ef7d543a869fb5f991f01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89109eb7564c0977d86e4451b7e85fb') in 0.026126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/meat_item.png
+  artifactKey: Guid(7f2b85dba9a0fca43b72951a31e98767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/meat_item.png using Guid(7f2b85dba9a0fca43b72951a31e98767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c8270757f0cf5da7f10dae347f15e8') in 0.026508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/mushroom/mushroom_crushed_anim_strip_6.png
+  artifactKey: Guid(2a3ec067423863740bf1ac0780c65db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/mushroom/mushroom_crushed_anim_strip_6.png using Guid(2a3ec067423863740bf1ac0780c65db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbcba329d87b540ff399e38fcdb8033') in 0.027954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/orb_anim_strip_6.png
+  artifactKey: Guid(169ddf5aef86252468f1e7c0013f8c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/orb_anim_strip_6.png using Guid(169ddf5aef86252468f1e7c0013f8c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11cd0382e94b4a21c913142d49501931') in 0.035430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000937 seconds.
+  path: Assets/角色/Skeleton/GIFS/Skeleton Dead.gif
+  artifactKey: Guid(62854db1e32881f4ba4a82e43021294e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/角色/Skeleton/GIFS/Skeleton Dead.gif using Guid(62854db1e32881f4ba4a82e43021294e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f1fa5c1d50948c916a354d13ec31a3') in 0.027320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/orb.png
+  artifactKey: Guid(9171d887fd18b3943bebadbd200aff4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/orb.png using Guid(9171d887fd18b3943bebadbd200aff4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f770c21ebb5a5f80641ed22ef44caf0f') in 0.027837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/mushroom/mushroom_death_anim_strip_6.png
+  artifactKey: Guid(fa15c6383bcaf5a4aa4c56c0117626e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/mushroom/mushroom_death_anim_strip_6.png using Guid(fa15c6383bcaf5a4aa4c56c0117626e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766425c8419173d629415c1980dbb9cc') in 0.051044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002641 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/root_props.png
+  artifactKey: Guid(a36c0e7bb088b3149a00dc46b5cbbfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/root_props.png using Guid(a36c0e7bb088b3149a00dc46b5cbbfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb3eb3f84a203738117645d636ea819') in 0.088763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/orb_collected_anim.gif
+  artifactKey: Guid(da0c326356ea8094383a5f4b53a9b7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/orb_collected_anim.gif using Guid(da0c326356ea8094383a5f4b53a9b7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a54541723599a149191f98395756d2a') in 0.035862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/save_point_saving_anim.gif
+  artifactKey: Guid(3aee520cfd20c1f48bde49bd182ff32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/save_point_saving_anim.gif using Guid(3aee520cfd20c1f48bde49bd182ff32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6caa8b0d9912453a1e964ee365e43c61') in 0.064220 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003448 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\Yuemo_03\Unity_TNU_Game_20220222\[W01]Unity_TNU_Game_20220222\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.192 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1193ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (990ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (347ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (366ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2346 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.2 MB.
+System memory in use after: 108.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2908.
+Total: 7.050300 ms (FindLiveObjects: 0.347400 ms CreateObjectMapping: 0.324000 ms MarkObjects: 6.247200 ms  DeleteObjects: 0.130400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 138.941941 seconds.
+  path: Assets/怪物動畫/moster02_Death.anim
+  artifactKey: Guid(b1b691264d13583428fdf9fc67e89fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/怪物動畫/moster02_Death.anim using Guid(b1b691264d13583428fdf9fc67e89fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d616f451eb18f7481eb47066d3d5d2') in 0.028239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.899538 seconds.
+  path: Assets/怪物動畫/Death_0.controller
+  artifactKey: Guid(5c95af7da504471478627fbcdb443af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/怪物動畫/Death_0.controller using Guid(5c95af7da504471478627fbcdb443af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4b2a3c5fee3729cf8118f80ec6dc03') in 0.009726 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004724 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\Yuemo_03\Unity_TNU_Game_20220222\[W01]Unity_TNU_Game_20220222\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.524 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1524ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1335ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (590ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (399ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2346 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.3 MB.
+System memory in use after: 108.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2911.
+Total: 4.005100 ms (FindLiveObjects: 0.224900 ms CreateObjectMapping: 0.145000 ms MarkObjects: 3.607300 ms  DeleteObjects: 0.026700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 75.756175 seconds.
+  path: Assets/怪物動畫/Moster_02.prefab
+  artifactKey: Guid(1fe1c047d0ca7bc43b01fa9150bec1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/怪物動畫/Moster_02.prefab using Guid(1fe1c047d0ca7bc43b01fa9150bec1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'moster02_run' used by the Animation component 'Moster_02' must be marked as Legacy.
+The AnimationClip 'moster02_run' used by the Animation component 'Moster_02(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'moster02_run' used by the Animation component 'Moster_02(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '44e4e2306ab5df1fa148dfd7755989e4') in 0.083879 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003780 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\Yuemo_03\Unity_TNU_Game_20220222\[W01]Unity_TNU_Game_20220222\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.293 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1293ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1108ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (430ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (351ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2346 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.5 MB.
+System memory in use after: 108.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2915.
+Total: 3.341200 ms (FindLiveObjects: 0.203400 ms CreateObjectMapping: 0.102100 ms MarkObjects: 3.004700 ms  DeleteObjects: 0.029700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 185.476999 seconds.
+  path: Assets/怪物動畫/New Animator Override Controller.overrideController
+  artifactKey: Guid(cff1aba013ee49041988f3123c7093a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/怪物動畫/New Animator Override Controller.overrideController using Guid(cff1aba013ee49041988f3123c7093a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6aca3a8e855865ae62e2737c9c51dcd') in 0.029085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 167.864523 seconds.
+  path: Assets/怪物動畫/New Animator Controller.controller
+  artifactKey: Guid(0652197571fde85488037b4f6f11dbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/怪物動畫/New Animator Controller.controller using Guid(0652197571fde85488037b4f6f11dbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151ddcd3d94c731114cc421578103616') in 0.013897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.562197 seconds.
+  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin/生成點.controller
+  artifactKey: Guid(5b9fc3a1f37d74749b5e99c6cb250dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin/生成點.controller using Guid(5b9fc3a1f37d74749b5e99c6cb250dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f544b9ba16ed6a3fbe7b5d2b617699c') in 0.008123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.796193 seconds.
+  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin/moster01_Attack.anim
+  artifactKey: Guid(b7d03fee6223ae0478cf939fc4156211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin/moster01_Attack.anim using Guid(b7d03fee6223ae0478cf939fc4156211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c3b89b3135db0e4966a30c9c147032') in 0.008509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.268440 seconds.
+  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin/moster01_Run.anim
+  artifactKey: Guid(ba23f6fc5134f0b43aab575852e8e8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin/moster01_Run.anim using Guid(ba23f6fc5134f0b43aab575852e8e8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82827fb23aa043254e134ab62b08533') in 0.007609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.312879 seconds.
+  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin/moster01_Death.anim
+  artifactKey: Guid(291b71274e541db418631ef5e3443c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin/moster01_Death.anim using Guid(291b71274e541db418631ef5e3443c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94abb3176972b0ab1392114d6a3615a7') in 0.045243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.125574 seconds.
+  path: Assets/怪物動畫/moster01.controller
+  artifactKey: Guid(66cc06e012ab34d498fda1dcd287682c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/怪物動畫/moster01.controller using Guid(66cc06e012ab34d498fda1dcd287682c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78667d2d6e5e76d8b3ab8ada71dee9f4') in 0.009318 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004576 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\Yuemo_03\Unity_TNU_Game_20220222\[W01]Unity_TNU_Game_20220222\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.101 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2102ms)
+		BeginReloadAssembly (316ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (84ms)
+		EndReloadAssembly (1576ms)
+			LoadAssemblies (278ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (663ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (440ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (266ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2346 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.5 MB.
+System memory in use after: 108.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2918.
+Total: 4.665700 ms (FindLiveObjects: 0.263900 ms CreateObjectMapping: 0.153100 ms MarkObjects: 4.139300 ms  DeleteObjects: 0.107300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 192.310724 seconds.
   path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Death.png
   artifactKey: Guid(7511b3e1c0ca4fd4ca4d62d1e7e7df1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Death.png using Guid(7511b3e1c0ca4fd4ca4d62d1e7e7df1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04fc388c3652f7a2e398d5d7a874bb3') in 0.015935 seconds 
-  Import took 0.019230 seconds .
-
+Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Death.png using Guid(7511b3e1c0ca4fd4ca4d62d1e7e7df1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00084af8c3bf8f6fc86464f9ee9ca0ac') in 0.134555 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.644941 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton
-  artifactKey: Guid(89b5d0597352d704ea5b4c6373c55282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton using Guid(89b5d0597352d704ea5b4c6373c55282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a3bda6d045bc90a57de838f3bb68d1') in 0.003678 seconds 
-  Import took 0.008893 seconds .
-
+  Time since last request: 35.659976 seconds.
+  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin/Run_0.controller
+  artifactKey: Guid(18d5aa1bc6335884883ac8dc2a5510da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin/Run_0.controller using Guid(18d5aa1bc6335884883ac8dc2a5510da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4dafcceeba272ccce3f2d404394897') in 0.006645 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.770022 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim
-  artifactKey: Guid(07b36f12fd70fa646adb775b8c29d9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim using Guid(07b36f12fd70fa646adb775b8c29d9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a99d9750e350a4776dd9c5908e93312') in 0.003481 seconds 
-  Import took 0.007053 seconds .
-
+  Time since last request: 332.094881 seconds.
+  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin/Death_0.controller
+  artifactKey: Guid(61e3fc06fba46fc4dac97207d7373672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin/Death_0.controller using Guid(61e3fc06fba46fc4dac97207d7373672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107af4ab948b4d3968d71f24626f99b1') in 0.203910 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.245233 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Moster01_Attack.anim
-  artifactKey: Guid(a5b4e5c330e111d42931ea443ffaae1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Moster01_Attack.anim using Guid(a5b4e5c330e111d42931ea443ffaae1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b2734b77f092cf2161bd74294d6af5') in 0.004615 seconds 
-  Import took 0.008311 seconds .
-
+  Time since last request: 259.849742 seconds.
+  path: Assets/角色/Skeleton/GIFS/Skeleton Hit.gif
+  artifactKey: Guid(b3c042d6127e0794eb52d5ac4c277f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/角色/Skeleton/GIFS/Skeleton Hit.gif using Guid(b3c042d6127e0794eb52d5ac4c277f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7253839a1963d445a3cc8ebbc994fe') in 0.062477 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.541418 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Most01_Attack.controller
-  artifactKey: Guid(b4282a50189f40c4a813cdbd86ad4ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Most01_Attack.controller using Guid(b4282a50189f40c4a813cdbd86ad4ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6063e2dac71b022a9ce98d33bf08464') in 0.004848 seconds 
-  Import took 0.008296 seconds .
-
+  Time since last request: 0.000233 seconds.
+  path: Assets/角色/Skeleton/Sprite Sheets/Skeleton Idle.png
+  artifactKey: Guid(ff1d3d01fe557ba42b884a3cbed1fe7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/角色/Skeleton/Sprite Sheets/Skeleton Idle.png using Guid(ff1d3d01fe557ba42b884a3cbed1fe7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7edfd8ff9876ac9bfbc75bc76c578b73') in 0.181459 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.098052 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Walk.png
-  artifactKey: Guid(193f61cd3cc561944bca6987cf8e719e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Walk.png using Guid(193f61cd3cc561944bca6987cf8e719e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4e6c055248f1ed3843ef69d8826bf9') in 0.009856 seconds 
-  Import took 0.013000 seconds .
-
+  Time since last request: 0.000379 seconds.
+  path: Assets/角色/Skeleton/Sprite Sheets/Skeleton Walk.png
+  artifactKey: Guid(2020c8122aff4944fb1327699c915915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/角色/Skeleton/Sprite Sheets/Skeleton Walk.png using Guid(2020c8122aff4944fb1327699c915915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f79e1180b52375b87d93397a84e0f8') in 0.195896 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.696630 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Walk.png
-  artifactKey: Guid(193f61cd3cc561944bca6987cf8e719e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Walk.png using Guid(193f61cd3cc561944bca6987cf8e719e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44581ff47245c4879d9cbf996a710b57') in 0.007268 seconds 
-  Import took 0.010418 seconds .
-
+  Time since last request: 0.000321 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/slime/slime_death_anim_strip_6.png
+  artifactKey: Guid(7280e446430a25142bd0bb974b03a8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/slime/slime_death_anim_strip_6.png using Guid(7280e446430a25142bd0bb974b03a8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e2285f3fedcd8e9acdac547b4cde79') in 0.168108 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.912532 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Walk.png
-  artifactKey: Guid(193f61cd3cc561944bca6987cf8e719e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Walk.png using Guid(193f61cd3cc561944bca6987cf8e719e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0657ebd0611edbf506c89b76784b8293') in 0.023849 seconds 
-  Import took 0.027014 seconds .
-
+  Time since last request: 0.000294 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/stone.png
+  artifactKey: Guid(71d1573add53e3649bbbb44c9a2d2743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/stone.png using Guid(71d1573add53e3649bbbb44c9a2d2743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4f2400f5fc67c6d22472b81a966cf2') in 0.282194 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 31.266096 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Walk.png
-  artifactKey: Guid(193f61cd3cc561944bca6987cf8e719e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Walk.png using Guid(193f61cd3cc561944bca6987cf8e719e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a36189367b0f049b7c3915a570e78b') in 0.027476 seconds 
-  Import took 0.030576 seconds .
-
+  Time since last request: 0.000243 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/strange_door_opening_anim.gif
+  artifactKey: Guid(3891368bebca1e3459d4695cac846e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/strange_door_opening_anim.gif using Guid(3891368bebca1e3459d4695cac846e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd839f28f9dd239af729d9a88dd4f9a34') in 0.049463 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.626495 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Mushroom
-  artifactKey: Guid(2442e4a46672416468f7a0ced00c6fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Mushroom using Guid(2442e4a46672416468f7a0ced00c6fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746429fc01bd3d3fb4b24bae03773c8f') in 0.003046 seconds 
-  Import took 0.007026 seconds .
-
+  Time since last request: 0.000209 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/slime/slime_spritesheet.png
+  artifactKey: Guid(9b1c025df5bf8c14f94ab76f849f5e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/slime/slime_spritesheet.png using Guid(9b1c025df5bf8c14f94ab76f849f5e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f4b2672fac0d6f081bf9ebd1c8cc8b') in 0.045229 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.617971 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/士兵_攻擊.anim
-  artifactKey: Guid(8d3408a6774c5b9419fa11b031b2f57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/士兵_攻擊.anim using Guid(8d3408a6774c5b9419fa11b031b2f57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f4be4209af21497ead3351df165532') in 0.003893 seconds 
-  Import took 0.006900 seconds .
-
+  Time since last request: 0.000337 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/slime/slime_hit_anim.gif
+  artifactKey: Guid(05fa2eab9e9fdc540bc2c30fb21cd62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/slime/slime_hit_anim.gif using Guid(05fa2eab9e9fdc540bc2c30fb21cd62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed242b50d6e2495ef562c32355fa0c9') in 0.056793 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.890210 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/士兵_死亡.anim
-  artifactKey: Guid(54cbefca651d1a14b882a2d94840da20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/士兵_死亡.anim using Guid(54cbefca651d1a14b882a2d94840da20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7144ed8119de8b36ed8259388bf8fbe8') in 0.003531 seconds 
-  Import took 0.006631 seconds .
-
+  Time since last request: 0.000149 seconds.
+  path: Assets/[01]Image/Demo/Tile-SpringGround.png
+  artifactKey: Guid(f5fe2ae573c256b47a76168b452b1b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[01]Image/Demo/Tile-SpringGround.png using Guid(f5fe2ae573c256b47a76168b452b1b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329f2596f73dbe6a60824fbcaff9895a') in 0.439673 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.215858 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/士兵_移動.anim
-  artifactKey: Guid(264adcb5aa4549b4da9ba6725df51b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/士兵_移動.anim using Guid(264adcb5aa4549b4da9ba6725df51b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a36696f7539f6bad5e42d4f5aec6e0') in 0.003540 seconds 
-  Import took 0.006507 seconds .
-
+  Time since last request: 0.000303 seconds.
+  path: Assets/角色/Skeleton/Sprite Sheets/Skeleton Hit.png
+  artifactKey: Guid(d67d52cc0e0f735439d6b30989e51b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/角色/Skeleton/Sprite Sheets/Skeleton Hit.png using Guid(d67d52cc0e0f735439d6b30989e51b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1b3792a887f238127375d2500d39dd') in 0.057187 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 796.849470 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(20885808b1d9d8c47ba061667cacb476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(20885808b1d9d8c47ba061667cacb476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29b103851a3684618869a785c088e20') in 0.002983 seconds 
-  Import took 0.006247 seconds .
-
+  Time since last request: 0.000291 seconds.
+  path: Assets/角色/Skeleton/GIFS/Skeleton Idle.gif
+  artifactKey: Guid(74f692c2736300447958897e39e0f395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/角色/Skeleton/GIFS/Skeleton Idle.gif using Guid(74f692c2736300447958897e39e0f395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3b6e6a7d08893a12f9c6e265e95513') in 0.055819 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.856613 seconds.
-  path: Assets/NewBehaviourScript.cs
-  artifactKey: Guid(6b8f061e43e5ac6458c27954c9ab820c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewBehaviourScript.cs using Guid(6b8f061e43e5ac6458c27954c9ab820c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd33d548a329ab4df9b8e5ea5554595') in 0.005295 seconds 
-  Import took 0.008801 seconds .
-
+  Time since last request: 0.000237 seconds.
+  path: Assets/角色/Skeleton/GIFS/Skeleton Walk.gif
+  artifactKey: Guid(2265c8695f1c13f4189e6aa90fc6c348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/角色/Skeleton/GIFS/Skeleton Walk.gif using Guid(2265c8695f1c13f4189e6aa90fc6c348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b218edfbfb9dda9dee314ce2f9cb1ea') in 0.044561 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.694091 seconds.
-  path: Assets/Scripts/DateAnim.cs
-  artifactKey: Guid(6872d8523352f1b4bb90be78dcbb91cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DateAnim.cs using Guid(6872d8523352f1b4bb90be78dcbb91cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9a4216eb50bf39be25f83d551231bb') in 0.003157 seconds 
-  Import took 0.006578 seconds .
-
+  Time since last request: 0.001238 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/spikes.png
+  artifactKey: Guid(478761a6676718c4cb2e5c91a87c139a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/spikes.png using Guid(478761a6676718c4cb2e5c91a87c139a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec8ff13f841ccb53d3ca4a8cd388ce5') in 0.118234 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.130527 seconds.
-  path: Assets/Scripts/money.cs
-  artifactKey: Guid(68b156cda960e3a4ca4e79cdcdea8457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/money.cs using Guid(68b156cda960e3a4ca4e79cdcdea8457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9750b863cc674fc3c6b8f20808c74979') in 0.002606 seconds 
-  Import took 0.006504 seconds .
-
+  Time since last request: 0.000410 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/herochar sprites(new)/sword_effect_strip_4(new).png
+  artifactKey: Guid(ce4166c1efbfd8842b1673efdff07441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/herochar sprites(new)/sword_effect_strip_4(new).png using Guid(ce4166c1efbfd8842b1673efdff07441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0bfe572c999c33d586b77bba199632') in 0.095126 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 517.561310 seconds.
-  path: Assets/Scripts/DateAnim.cs
-  artifactKey: Guid(6872d8523352f1b4bb90be78dcbb91cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DateAnim.cs using Guid(6872d8523352f1b4bb90be78dcbb91cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d00bfe951b8ecd510942175787181e7') in 0.002007 seconds 
-  Import took 0.005057 seconds .
-
+  Time since last request: 0.000250 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/tiki_torch_props.gif
+  artifactKey: Guid(a13ee28b29f109748b6d6439eb78ae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/tiki_torch_props.gif using Guid(a13ee28b29f109748b6d6439eb78ae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfd7181eabe06fcabf8fa7cbf149d34') in 0.106980 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 37.438004 seconds.
-  path: Assets/Scripts/DateAnim.cs
-  artifactKey: Guid(6872d8523352f1b4bb90be78dcbb91cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DateAnim.cs using Guid(6872d8523352f1b4bb90be78dcbb91cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8afcfc6ebc8a6ed5ef4da0ecd8443abe') in 0.002236 seconds 
-  Import took 0.005124 seconds .
-
+  Time since last request: 0.000393 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/spikes_trap_hit_wall_dust_effect.gif
+  artifactKey: Guid(a70442e4d9b23cd4db69a8267481e1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/spikes_trap_hit_wall_dust_effect.gif using Guid(a70442e4d9b23cd4db69a8267481e1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06558f1abcd424eacc6abbd0b0e6fbb8') in 0.171926 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 31.225654 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Most01_Attack.controller
-  artifactKey: Guid(b4282a50189f40c4a813cdbd86ad4ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Most01_Attack.controller using Guid(b4282a50189f40c4a813cdbd86ad4ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673abb691b1960db0b7b5ac41135b4f4') in 0.005274 seconds 
-  Import took 0.008870 seconds .
-
+  Time since last request: 0.000258 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/slime/slime_hit_anim_strip_3.png
+  artifactKey: Guid(906d79519790bba4cab9ae17c98743a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/slime/slime_hit_anim_strip_3.png using Guid(906d79519790bba4cab9ae17c98743a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5d1c06e5fe8f1be8049dafc4da3d67') in 0.096499 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 339.887319 seconds.
-  path: Assets/角色動畫/player.controller
-  artifactKey: Guid(b93c2d9bed63f1d46a5cd243440717a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/角色動畫/player.controller using Guid(b93c2d9bed63f1d46a5cd243440717a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095c3e02aa6b9a2cdb14f79532f92959') in 0.005595 seconds 
-  Import took 0.009223 seconds .
-
+  Time since last request: 0.000426 seconds.
+  path: Assets/角色/Skeleton/GIFS/Skeleton React.gif
+  artifactKey: Guid(bdbc20f33f0f90348aa676b623196efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/角色/Skeleton/GIFS/Skeleton React.gif using Guid(bdbc20f33f0f90348aa676b623196efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08774737ae9d4ab8ed7aa26d3223ffb4') in 0.034964 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.449380 seconds.
-  path: Assets/角色動畫/Skeleton Attack_0.controller
-  artifactKey: Guid(efc5c8792cc536c4da905387292365fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/角色動畫/Skeleton Attack_0.controller using Guid(efc5c8792cc536c4da905387292365fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cade9a068c09b2adb4e165fd3e5e00ab') in 0.003858 seconds 
-  Import took 0.007266 seconds .
-
+  Time since last request: 0.000280 seconds.
+  path: Assets/方形圖片.png
+  artifactKey: Guid(56259c44513db574ebbfbfe828d516b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/方形圖片.png using Guid(56259c44513db574ebbfbfe828d516b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b45a05d9ca079f8be15cd3c3b5b5b8') in 0.095956 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.742290 seconds.
-  path: Assets/角色動畫/Walk.anim
-  artifactKey: Guid(9c0c0ba2574d4404c93a595989682f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/角色動畫/Walk.anim using Guid(9c0c0ba2574d4404c93a595989682f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c84d77629b831a9943b76bc1eb8610') in 0.002923 seconds 
-  Import took 0.005899 seconds .
-
+  Time since last request: 0.000304 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/spikes_trap.png
+  artifactKey: Guid(5a9e6ff2a1d115a40b086294ee4fcc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/spikes_trap.png using Guid(5a9e6ff2a1d115a40b086294ee4fcc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ea9d818be24629f4f90a7c8ff99e1f') in 0.094574 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.567290 seconds.
-  path: Assets/moster/Monster_Creatures_Fantasy(Version 1.2)
-  artifactKey: Guid(a8e2ff4952c61834dbedadac8eefc9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monster_Creatures_Fantasy(Version 1.2) using Guid(a8e2ff4952c61834dbedadac8eefc9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0f26850bc0883d2a1bc393ecc1e70f') in 0.002766 seconds 
-  Import took 0.005952 seconds .
-
+  Time since last request: 0.000374 seconds.
+  path: Assets/角色/Skeleton/Sprite Sheets/Skeleton React.png
+  artifactKey: Guid(10812c6c69463bc42a5ea7c7aa6ac5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/角色/Skeleton/Sprite Sheets/Skeleton React.png using Guid(10812c6c69463bc42a5ea7c7aa6ac5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0aafddcaf586ca171a535bd5188e1e') in 0.111174 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.393608 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin
-  artifactKey: Guid(1e6e08230d5d8f34bb0894e0ac1c82ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin using Guid(1e6e08230d5d8f34bb0894e0ac1c82ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb832bfbfbbbf1da9b9f140cadfff716') in 0.003418 seconds 
-  Import took 0.007099 seconds .
-
+  Time since last request: 0.000237 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/tiki_torch_props_strip_12.png
+  artifactKey: Guid(c8471d90822b13f4d8f77d8ae92d85db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/tiki_torch_props_strip_12.png using Guid(c8471d90822b13f4d8f77d8ae92d85db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05cc6e1b23d5faf391a24005a5015899') in 0.040916 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 45.632470 seconds.
-  path: Assets/moster/Monster_Creatures_Fantasy(Version 1.2)/Monster_Creatures_Fantasy(Version 1.2)/Goblin
-  artifactKey: Guid(7453251e61eb7f1429fa54be41e12771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monster_Creatures_Fantasy(Version 1.2)/Monster_Creatures_Fantasy(Version 1.2)/Goblin using Guid(7453251e61eb7f1429fa54be41e12771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efd50875a726b64a2c05eb97b7e1454') in 0.002668 seconds 
-  Import took 0.006545 seconds .
-
+  Time since last request: 0.000460 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/strange_door_opening_anim_strip_14.png
+  artifactKey: Guid(0a12c1ff79d69e044826fd9a86eda95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/strange_door_opening_anim_strip_14.png using Guid(0a12c1ff79d69e044826fd9a86eda95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e98085a8b0b22ce8eb00c82031aee4') in 0.063664 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.425500 seconds.
-  path: Assets/moster/Monster_Creatures_Fantasy(Version 1.2)/Monster_Creatures_Fantasy(Version 1.2)/Mushroom
-  artifactKey: Guid(3863e79d2bc14694081ae9db80e764d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monster_Creatures_Fantasy(Version 1.2)/Monster_Creatures_Fantasy(Version 1.2)/Mushroom using Guid(3863e79d2bc14694081ae9db80e764d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74c3b9adc2c1f6a44bc87bf3cec116b') in 0.002599 seconds 
-  Import took 0.006358 seconds .
-
+  Time since last request: 0.000308 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/strange_door_closed_anim.gif
+  artifactKey: Guid(efa0c81ad202cf149bcde23b7582e3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/strange_door_closed_anim.gif using Guid(efa0c81ad202cf149bcde23b7582e3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e8b695bf4953d68e8c70bfd6e1b8cb') in 0.035592 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 41.700298 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Attack_0.prefab
-  artifactKey: Guid(9099836e050ec634ab34550b71af894a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Attack_0.prefab using Guid(9099836e050ec634ab34550b71af894a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d68bd861201e732f32ae4f1832d05b5') in 0.029189 seconds 
-  Import took 0.033412 seconds .
-
+  Time since last request: 0.000227 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/slime/slime_idle_anim.gif
+  artifactKey: Guid(bc66d776393ed684699d7bd06ecc03f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/slime/slime_idle_anim.gif using Guid(bc66d776393ed684699d7bd06ecc03f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8202608927b38ca8efbceeae858a902') in 0.144338 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.308675 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Death_0.prefab
-  artifactKey: Guid(6a7d7c025ac1353458f4ff057c8649ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Death_0.prefab using Guid(6a7d7c025ac1353458f4ff057c8649ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216e7391a88ba3ce219bd4cccffa0c5c') in 0.009702 seconds 
-  Import took 0.012905 seconds .
-
+  Time since last request: 0.006607 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/slime/slime_idle_anim_strip_5.png
+  artifactKey: Guid(964c3ca2b0e345d4d971ab271d2a286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/slime/slime_idle_anim_strip_5.png using Guid(964c3ca2b0e345d4d971ab271d2a286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827ff215aab6e2a95afbbc6f700a3523') in 0.051308 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.756626 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Idle_0.prefab
-  artifactKey: Guid(f330eb2cd8217624993266114d38c015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Idle_0.prefab using Guid(f330eb2cd8217624993266114d38c015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b4ed1c94ba8035ed9ec8f7a0382c6b') in 0.007970 seconds 
-  Import took 0.011286 seconds .
-
+  Time since last request: 0.000421 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/slime/slime_death_anim.gif
+  artifactKey: Guid(9c6d742f9d3e26b489d6bc1cc5e24e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/slime/slime_death_anim.gif using Guid(9c6d742f9d3e26b489d6bc1cc5e24e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c6d240e8c268f8246b32880ea5375a') in 0.303722 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.836317 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Walk_0.prefab
-  artifactKey: Guid(b9b40b45c0ac1024b87a4450cf9b8453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Walk_0.prefab using Guid(b9b40b45c0ac1024b87a4450cf9b8453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb143efa2ac3f16ccc75221a6d9b8c0') in 0.009246 seconds 
-  Import took 0.014009 seconds .
-
+  Time since last request: 0.000264 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/slime/slime_walk_anim.gif
+  artifactKey: Guid(47997516dd0d3f14fa3cca5f9d050831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/slime/slime_walk_anim.gif using Guid(47997516dd0d3f14fa3cca5f9d050831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f14cf373bae8f6f83fd6450332d46aa') in 0.219976 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 522.522499 seconds.
-  path: Assets/Scripts/EnemySystem.cs
-  artifactKey: Guid(2eb178747986bba4cabc8351d5afe415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemySystem.cs using Guid(2eb178747986bba4cabc8351d5afe415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd70a41f1138c737055a9b550828016a') in 0.003086 seconds 
-  Import took 0.006839 seconds .
-
+  Time since last request: 0.000275 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/spikes_trap_hit_wall_dust_effect_strip_3.png
+  artifactKey: Guid(00747623b2c3d7e46b1dd77b4d3bd33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/spikes_trap_hit_wall_dust_effect_strip_3.png using Guid(00747623b2c3d7e46b1dd77b4d3bd33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a250e9c9d0e4e08b4e0e013e03bbf4d') in 0.126640 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 347.050470 seconds.
-  path: Assets/Scripts/EnemySystem.cs
-  artifactKey: Guid(2eb178747986bba4cabc8351d5afe415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemySystem.cs using Guid(2eb178747986bba4cabc8351d5afe415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33042a7a9c185bf04610d6daf51dd57') in 0.002183 seconds 
-  Import took 0.005510 seconds .
-
+  Time since last request: 0.000307 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/herochar sprites(new)/sword_effect(new).gif
+  artifactKey: Guid(53659873b886ad1499da0b8fc9a49023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/herochar sprites(new)/sword_effect(new).gif using Guid(53659873b886ad1499da0b8fc9a49023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7da2a2b4965cef06cfce40772a010ab') in 0.059668 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 645.905655 seconds.
-  path: Assets/武器資料
-  artifactKey: Guid(171099ee4c6209e45bd9d0dc5296dccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/武器資料 using Guid(171099ee4c6209e45bd9d0dc5296dccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe847781ce7d555aede0678f92ee309') in 0.002365 seconds 
-  Import took 0.006260 seconds .
-
+  Time since last request: 0.000259 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/slime/slime_walk_anim_strip_15.png
+  artifactKey: Guid(4ce7e5f85e192e74f8c0d6ec6eb7237f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/enemies sprites/slime/slime_walk_anim_strip_15.png using Guid(4ce7e5f85e192e74f8c0d6ec6eb7237f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b61ba28bd035f5482035a916ac6110') in 0.025877 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 191.987538 seconds.
-  path: Assets/怪物資料
-  artifactKey: Guid(abe0be7e1fb2dc84f92bdc53f4e4b101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/怪物資料 using Guid(abe0be7e1fb2dc84f92bdc53f4e4b101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999be5a3c7a910b9558cc31488efa670') in 0.002713 seconds 
-  Import took 0.005952 seconds .
-
+  Time since last request: 0.000216 seconds.
+  path: Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/strange_door_closed_anim_strip_10.png
+  artifactKey: Guid(55659892c37c1d940a9fe4874eae208a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/platform_metroidvania asset pack v1.01/miscellaneous sprites/strange_door_closed_anim_strip_10.png using Guid(55659892c37c1d940a9fe4874eae208a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23fa8e1f6a879d75b8910428e9d7e118') in 0.024669 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.569212 seconds.
-  path: Assets/武器資料/斧頭 1.asset
-  artifactKey: Guid(5a3efa117cad08e4c881ba3f1c341803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/武器資料/斧頭 1.asset using Guid(5a3efa117cad08e4c881ba3f1c341803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a05ba56d26ad4ce7a016c5965d436d') in 0.005380 seconds 
-  Import took 0.008655 seconds .
+  Time since last request: 0.000223 seconds.
+  path: Assets/moster/Monster_Creatures_Fantasy(Version 1.3)/Monster_Creatures_Fantasy(Version 1.3)/Skeleton/Sword_sprite.png
+  artifactKey: Guid(5dfc44816e200ae4fb0bfae16f644416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monster_Creatures_Fantasy(Version 1.3)/Monster_Creatures_Fantasy(Version 1.3)/Skeleton/Sword_sprite.png using Guid(5dfc44816e200ae4fb0bfae16f644416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e91104cd4e9db84eb9eda9c0ddbb16') in 0.032913 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016442 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\Yuemo_03\Unity_TNU_Game_20220222\[W01]Unity_TNU_Game_20220222\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.545 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1546ms)
+		BeginReloadAssembly (227ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1247ms)
+			LoadAssemblies (265ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (343ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (524ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (248ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2346 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.6 MB.
+System memory in use after: 108.8 MB.
 
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2954.
+Total: 3.477800 ms (FindLiveObjects: 0.220300 ms CreateObjectMapping: 0.134600 ms MarkObjects: 3.095300 ms  DeleteObjects: 0.026700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003441 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\Yuemo_03\Unity_TNU_Game_20220222\[W01]Unity_TNU_Game_20220222\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.148 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1149ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (958ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (327ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (349ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (216ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2346 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.5 MB.
+System memory in use after: 108.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2957.
+Total: 3.894000 ms (FindLiveObjects: 0.219700 ms CreateObjectMapping: 0.128800 ms MarkObjects: 3.519800 ms  DeleteObjects: 0.024900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.312000 seconds.
+  Time since last request: 603.983800 seconds.
+  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin/Attack.png
+  artifactKey: Guid(8e1977ae821b2964591c506f84fbbf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin/Attack.png using Guid(8e1977ae821b2964591c506f84fbbf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0405c89bcfeeddbb5e23456ae7d953b3') in 0.088399 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003107 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\Yuemo_03\Unity_TNU_Game_20220222\[W01]Unity_TNU_Game_20220222\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.259 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1259ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1070ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (416ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (360ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2346 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.6 MB.
+System memory in use after: 108.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2961.
+Total: 3.804900 ms (FindLiveObjects: 0.237600 ms CreateObjectMapping: 0.114400 ms MarkObjects: 3.427400 ms  DeleteObjects: 0.024600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26.261402 seconds.
+  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin/Death.png
+  artifactKey: Guid(2489adbc16845224eb7b8aec9b92959d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin/Death.png using Guid(2489adbc16845224eb7b8aec9b92959d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0e83e80df4dc175262ada7fababe81') in 0.070534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin/Run.png
+  artifactKey: Guid(5798121fbb356254cbb08ed28b757fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin/Run.png using Guid(5798121fbb356254cbb08ed28b757fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bcefe29b5b4a700e858dd60ccb214eb') in 0.069686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.881719 seconds.
+  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin/Death.png
+  artifactKey: Guid(2489adbc16845224eb7b8aec9b92959d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin/Death.png using Guid(2489adbc16845224eb7b8aec9b92959d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551f79bc10c514617e87e7bf18bf5b0b') in 0.027135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin/Run.png
+  artifactKey: Guid(5798121fbb356254cbb08ed28b757fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin/Run.png using Guid(5798121fbb356254cbb08ed28b757fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83f27e6d9c76abf74b659a929d1e73a') in 0.045587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.888960 seconds.
+  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin/Death.png
+  artifactKey: Guid(2489adbc16845224eb7b8aec9b92959d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin/Death.png using Guid(2489adbc16845224eb7b8aec9b92959d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ed7e64a3221caeb7e3ec11a0aeef70') in 0.037107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin/Run.png
+  artifactKey: Guid(5798121fbb356254cbb08ed28b757fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin/Run.png using Guid(5798121fbb356254cbb08ed28b757fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3682abe57abcefe74e117bfac3f79ed9') in 0.064402 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003900 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\Yuemo_03\Unity_TNU_Game_20220222\[W01]Unity_TNU_Game_20220222\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.812 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1813ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1559ms)
+			LoadAssemblies (149ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (742ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (449ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (281ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2346 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.7 MB.
+System memory in use after: 108.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2965.
+Total: 3.953300 ms (FindLiveObjects: 0.259300 ms CreateObjectMapping: 0.142100 ms MarkObjects: 3.521600 ms  DeleteObjects: 0.029000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 91.671044 seconds.
+  path: Assets/怪物動畫/Run_0.prefab
+  artifactKey: Guid(d72a1a46abddcf54e958a09322abbed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/怪物動畫/Run_0.prefab using Guid(d72a1a46abddcf54e958a09322abbed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Run_0) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Run_0) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '1bae471af234c8e7d80fac8e5947d60c') in 0.089815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.224281 seconds.
+  path: Assets/怪物動畫/Death_0.prefab
+  artifactKey: Guid(d336ddc6ac29f47499ec1d3afdaffe36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/怪物動畫/Death_0.prefab using Guid(d336ddc6ac29f47499ec1d3afdaffe36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Death_0) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Death_0) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'dd3e4b8bb0a1fbda48292e2ac71fb9c1') in 0.017163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.124282 seconds.
+  path: Assets/怪物動畫/Attack_0.prefab
+  artifactKey: Guid(4a9289ddd4276f14784afaa7152ba8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/怪物動畫/Attack_0.prefab using Guid(4a9289ddd4276f14784afaa7152ba8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Most01_Attack': Transition 'AnyState -> 士兵_死亡' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
+
+ -> (artifact id: '8eebad98f78175011a1a804cc96586db') in 0.021580 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003536 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\Yuemo_03\Unity_TNU_Game_20220222\[W01]Unity_TNU_Game_20220222\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.780 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1781ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1530ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (647ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (445ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (142ms)
+				ProcessInitializeOnLoadAttributes (271ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2346 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.7 MB.
+System memory in use after: 108.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2969.
+Total: 5.031500 ms (FindLiveObjects: 0.261300 ms CreateObjectMapping: 0.142400 ms MarkObjects: 4.596400 ms  DeleteObjects: 0.030000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003375 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\Yuemo_03\Unity_TNU_Game_20220222\[W01]Unity_TNU_Game_20220222\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.170 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1171ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (969ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (349ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (342ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2346 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.7 MB.
+System memory in use after: 108.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2972.
+Total: 3.449300 ms (FindLiveObjects: 0.232900 ms CreateObjectMapping: 0.101800 ms MarkObjects: 3.089100 ms  DeleteObjects: 0.024700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003073 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\Yuemo_03\Unity_TNU_Game_20220222\[W01]Unity_TNU_Game_20220222\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.514 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1515ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1290ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (546ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (415ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (256ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2346 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.6 MB.
+System memory in use after: 108.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2975.
+Total: 4.346700 ms (FindLiveObjects: 0.264300 ms CreateObjectMapping: 0.147200 ms MarkObjects: 3.908900 ms  DeleteObjects: 0.025000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004840 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\Yuemo_03\Unity_TNU_Game_20220222\[W01]Unity_TNU_Game_20220222\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.495 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1496ms)
+		BeginReloadAssembly (169ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1236ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (454ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (433ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2346 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.7 MB.
+System memory in use after: 108.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2978.
+Total: 4.575000 ms (FindLiveObjects: 0.306800 ms CreateObjectMapping: 0.174600 ms MarkObjects: 4.054200 ms  DeleteObjects: 0.036000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1272.255704 seconds.
   path: Assets/怪物資料/士兵.asset
   artifactKey: Guid(5a3efa117cad08e4c881ba3f1c341803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/怪物資料/士兵.asset using Guid(5a3efa117cad08e4c881ba3f1c341803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a553e2b75aeb4804509ef55b6f8f691f') in 0.003904 seconds 
-  Import took 0.008898 seconds .
-
+Start importing Assets/怪物資料/士兵.asset using Guid(5a3efa117cad08e4c881ba3f1c341803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9fd051f069a03e7286609b53f0ea8f') in 0.024445 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1523.972979 seconds.
-  path: Assets/Scripts/WeaponSystem.cs
-  artifactKey: Guid(d0677b84ff06b8f468da6fb49cadeb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/WeaponSystem.cs using Guid(d0677b84ff06b8f468da6fb49cadeb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127e65cd4b9e3a7292f807cd8e228a27') in 0.002996 seconds 
-  Import took 0.006586 seconds .
-
+  Time since last request: 1.858365 seconds.
+  path: Assets/怪物動畫/moster01_Death.anim
+  artifactKey: Guid(291b71274e541db418631ef5e3443c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/怪物動畫/moster01_Death.anim using Guid(291b71274e541db418631ef5e3443c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc8bc2da47c098f8fe37951543951a9') in 0.004931 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.939107 seconds.
-  path: Assets/Scripts/EnemySystem.cs
-  artifactKey: Guid(2eb178747986bba4cabc8351d5afe415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemySystem.cs using Guid(2eb178747986bba4cabc8351d5afe415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88ec1a68e383d16cb0aa8bf233471bc') in 0.002768 seconds 
-  Import took 0.006258 seconds .
+  Time since last request: 0.431429 seconds.
+  path: Assets/怪物動畫/moster01.controller
+  artifactKey: Guid(66cc06e012ab34d498fda1dcd287682c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/怪物動畫/moster01.controller using Guid(66cc06e012ab34d498fda1dcd287682c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc3972bdd7ebe6c292fce8c08457ede') in 0.010666 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003435 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\Yuemo_03\Unity_TNU_Game_20220222\[W01]Unity_TNU_Game_20220222\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.944 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1944ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1662ms)
+			LoadAssemblies (296ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (648ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (472ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (151ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2346 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.7 MB.
+System memory in use after: 108.9 MB.
 
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2981.
+Total: 4.296700 ms (FindLiveObjects: 0.302800 ms CreateObjectMapping: 0.173700 ms MarkObjects: 3.788200 ms  DeleteObjects: 0.030800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.013790 seconds.
-  path: Assets/Scripts/player.cs
-  artifactKey: Guid(75f644115f8e0d248941cf1f511e2bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/player.cs using Guid(75f644115f8e0d248941cf1f511e2bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4abe3b23f09b7863869d78c3f3356068') in 0.002677 seconds 
-  Import took 0.006093 seconds .
-
+  Time since last request: 13.207728 seconds.
+  path: Assets/怪物動畫/Run_0.prefab
+  artifactKey: Guid(d72a1a46abddcf54e958a09322abbed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/怪物動畫/Run_0.prefab using Guid(d72a1a46abddcf54e958a09322abbed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6273128a900fc2351927f8c2c9eaa100') in 0.078521 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 6.883802 seconds.
-  path: Assets/Scripts/DateWeapon.cs
-  artifactKey: Guid(a4d7fa576378178449558b214eed03e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DateWeapon.cs using Guid(a4d7fa576378178449558b214eed03e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6a6a0471f70574f7915c07c1902e7c') in 0.002634 seconds 
-  Import took 0.006266 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003947 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\Yuemo_03\Unity_TNU_Game_20220222\[W01]Unity_TNU_Game_20220222\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.470 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1471ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1230ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (414ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (462ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (281ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2346 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.7 MB.
+System memory in use after: 108.9 MB.
 
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2985.
+Total: 3.803800 ms (FindLiveObjects: 0.341800 ms CreateObjectMapping: 0.152900 ms MarkObjects: 3.267000 ms  DeleteObjects: 0.040900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 267.165132 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Attack_0.prefab
-  artifactKey: Guid(9099836e050ec634ab34550b71af894a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Attack_0.prefab using Guid(9099836e050ec634ab34550b71af894a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fba31b72955d64e08c2dbb0609d2be') in 0.010082 seconds 
-  Import took 0.013400 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003463 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\Yuemo_03\Unity_TNU_Game_20220222\[W01]Unity_TNU_Game_20220222\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.432 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1432ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1244ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (514ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (361ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2346 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.7 MB.
+System memory in use after: 109.0 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 24.781400 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Attack_0.prefab
-  artifactKey: Guid(9099836e050ec634ab34550b71af894a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Attack_0.prefab using Guid(9099836e050ec634ab34550b71af894a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad44e9ed19e4da9b0dc585291b01d49') in 0.011275 seconds 
-  Import took 0.014522 seconds .
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2988.
+Total: 3.987200 ms (FindLiveObjects: 0.277800 ms CreateObjectMapping: 0.161100 ms MarkObjects: 3.417600 ms  DeleteObjects: 0.129600 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 24.438269 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Attack_0.prefab
-  artifactKey: Guid(9099836e050ec634ab34550b71af894a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Attack_0.prefab using Guid(9099836e050ec634ab34550b71af894a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce17539d755344f3f0993ed4c9d3f9c7') in 0.013703 seconds 
-  Import took 0.017253 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.086128 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Attack_0.prefab
-  artifactKey: Guid(9099836e050ec634ab34550b71af894a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Attack_0.prefab using Guid(9099836e050ec634ab34550b71af894a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f99829d07dd68e2113f0075667466f1') in 0.008510 seconds 
-  Import took 0.011948 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.103367 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Attack_0.prefab
-  artifactKey: Guid(9099836e050ec634ab34550b71af894a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Attack_0.prefab using Guid(9099836e050ec634ab34550b71af894a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e34ade4692a8e369709f2a77b179867') in 0.008863 seconds 
-  Import took 0.012128 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.822578 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Attack_0.prefab
-  artifactKey: Guid(9099836e050ec634ab34550b71af894a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Attack_0.prefab using Guid(9099836e050ec634ab34550b71af894a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf7655a9b032cb28fbedf488ef22b73') in 0.009370 seconds 
-  Import took 0.012765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.829675 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Attack_0.prefab
-  artifactKey: Guid(9099836e050ec634ab34550b71af894a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Attack_0.prefab using Guid(9099836e050ec634ab34550b71af894a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a34d8d52ee2e759ee02a191d2762ea9') in 0.017163 seconds 
-  Import took 0.020406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.203185 seconds.
-  path: Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Attack_0.prefab
-  artifactKey: Guid(9099836e050ec634ab34550b71af894a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moster/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Moster_Anim/Attack_0.prefab using Guid(9099836e050ec634ab34550b71af894a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ab8d999f55598a987357130e31bbec') in 0.008115 seconds 
-  Import took 0.011374 seconds .
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
