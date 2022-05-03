@@ -32,6 +32,9 @@ namespace Yuemo
 
         [Header("掉落經驗類型")]
         public TypeExp typeExp;
+
+        [Header("靠近目標後停止距離"),Range(0,30)]
+        public float stopDistance = 3;
     }
     /// <summary>
     /// 經驗值類型

@@ -122,6 +122,8 @@ namespace Yuemo
                     temp.GetComponent<Rigidbody2D>().AddForce(dateWaponList[_iDataIndex].v3Direction * dateWaponList[_iDataIndex].speedFly);
                     //刪除物件(遊戲物件,延遲時間)
                     //Destroy(temp, weaponDestoryTime);
+                    //取的武器.攻擊力 = 武器資料.攻擊力
+                    temp.GetComponent<Weapon>().attack=dateWeapon.attack;
                 }
                
                 //計時器 歸零
