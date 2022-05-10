@@ -16,14 +16,15 @@ namespace Yuemo
     ///受到傷害
     ///
     ///<param name="damage">傷害值</param>
-      public void GetHurt(float damage)
+    ///virtual 虛擬 -允許子類別使用 override 覆寫
+      public virtual void GetHurt(float damage)
       {
-       {
-           hp -= damage;
-           print("<color=pink>收到的傷害："+damage+"</color>");
-           if(hp<=0) Dead();
-
-       }
+        if (hp<=0) return;
+        
+        hp -= damage;
+        print("<color=pink>收到的傷害："+damage+"</color>");
+           
+        if(hp<=0) Dead();
     
       }
 
@@ -31,7 +32,7 @@ namespace Yuemo
     ///
     ///死亡
     ///
-      private void Dead()
+      protected virtual void Dead()
       {
        hp =0;
        print("<color=pink>角色死亡："+gameObject+"</color>");

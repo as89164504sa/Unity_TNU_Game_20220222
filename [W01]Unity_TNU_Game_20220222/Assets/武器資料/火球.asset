@@ -16,7 +16,7 @@ MonoBehaviour:
   attack: 105
   counStart: 1
   countmax: 6
-  interval: 3
+  interval: 5
   v2SpawnPoint:
   - {x: -0.5, y: 0.5, z: 5}
   - {x: 0, y: 0.2, z: 2.5}

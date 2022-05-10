@@ -84,13 +84,13 @@ namespace Yuemo //namespace+tap*2 以防不同人製作的產生衝突性
 
         private void Attack()
         {            
-            if(Input.GetKeyDown(KeyCode.E))
+            if(Input.GetKeyDown(KeyCode.R))
             {
                 ani.SetBool("開關_攻擊",true);
                 Debug.Log("進行攻擊");
             }
 
-            if(Input.GetKeyUp(KeyCode.E))
+            if(Input.GetKeyUp(KeyCode.R))
             {
                 ani.SetBool("開關_攻擊",false);
             }
