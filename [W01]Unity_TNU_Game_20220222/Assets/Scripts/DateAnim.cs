@@ -41,7 +41,7 @@ namespace Yuemo
     /// </summary>
     public enum TypeExp
     {
-        smallmmiddle,big
+        small, middle, big
     }
 
 }

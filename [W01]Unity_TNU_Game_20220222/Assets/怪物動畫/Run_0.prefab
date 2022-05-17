@@ -20,7 +20,7 @@ GameObject:
   m_TagString: "\u602A\u7269"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3150855896003894462
 Transform:
@@ -173,3 +173,4 @@ MonoBehaviour:
   hp: 100
   date: {fileID: 11400000, guid: 5a3efa117cad08e4c881ba3f1c341803, type: 2}
   goCanvasHurt: {fileID: 1946097580899321684, guid: 1032363b392f92a48885214d63351576, type: 3}
+  goExp: {fileID: 914220985170973500, guid: 09fe46335afa8e446b0daae87fdc71e1, type: 3}
